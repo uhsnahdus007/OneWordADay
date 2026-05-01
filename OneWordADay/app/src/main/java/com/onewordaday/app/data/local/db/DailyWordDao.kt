@@ -1,6 +1,8 @@
 package com.onewordaday.app.data.local.db
 
+import androidx.room.ColumnInfo
 import androidx.room.Dao
+import androidx.room.Embedded
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
@@ -22,22 +24,28 @@ interface DailyWordDao {
     suspend fun getByDate(date: String): DailyWordEntity?
 
     @Query("""
-        SELECT w.* FROM words w
+        SELECT w.id, w.word, w.partOfSpeech, w.definition, w.examples, w.theme,
+               w.source, w.usedOnDate, w.isFavourited, d.date AS assignedDate
+        FROM words w
         INNER JOIN daily_words d ON w.id = d.wordId
         ORDER BY d.date DESC LIMIT 30
     """)
-    fun getHistoryWords(): Flow<List<WordEntity>>
+    fun getHistoryWithDates(): Flow<List<WordWithDate>>
 
-    @Query("""
-        SELECT d.date, w.word, w.theme FROM daily_words d
-        INNER JOIN words w ON w.id = d.wordId
-        ORDER BY d.date DESC LIMIT 30
-    """)
-    fun getRecentDates(): Flow<List<DailyWordSummary>>
+    @Query("SELECT date FROM daily_words WHERE seenByUser = 1 ORDER BY date DESC")
+    suspend fun getSeenDates(): List<String>
 
     @Query("SELECT wordId FROM daily_words ORDER BY date DESC LIMIT 30")
     suspend fun getRecentWordIds(): List<Long>
+
+    @Query("SELECT COUNT(*) FROM daily_words WHERE seenByUser = 1")
+    suspend fun getSeenCount(): Int
 }
+
+data class WordWithDate(
+    @Embedded val wordEntity: WordEntity,
+    @ColumnInfo(name = "assignedDate") val date: String
+)
 
 data class DailyWordSummary(
     val date: String,

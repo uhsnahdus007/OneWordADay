@@ -7,5 +7,6 @@ data class Word(
     val definition: String,
     val examples: List<String>,
     val theme: WordTheme,
-    val source: String
+    val source: String,
+    val isFavourited: Boolean = false
 )

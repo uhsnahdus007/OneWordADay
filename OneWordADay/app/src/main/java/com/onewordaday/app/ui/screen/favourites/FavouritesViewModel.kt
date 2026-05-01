@@ -1,4 +1,4 @@
-package com.onewordaday.app.ui.screen.history
+package com.onewordaday.app.ui.screen.favourites
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -8,13 +8,20 @@ import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.stateIn
+import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 @HiltViewModel
-class HistoryViewModel @Inject constructor(
-    repository: WordRepository
+class FavouritesViewModel @Inject constructor(
+    private val repository: WordRepository
 ) : ViewModel() {
 
-    val historyWords: StateFlow<List<Pair<Word, String>>> = repository.getHistoryWithDates()
+    val favourites: StateFlow<List<Word>> = repository.getFavourites()
         .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), emptyList())
+
+    fun toggleFavourite(word: Word) {
+        viewModelScope.launch {
+            repository.toggleFavourite(word.id, word.isFavourited)
+        }
+    }
 }

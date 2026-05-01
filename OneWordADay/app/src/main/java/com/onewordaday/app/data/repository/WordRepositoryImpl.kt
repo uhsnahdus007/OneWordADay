@@ -5,10 +5,14 @@ import com.onewordaday.app.data.local.db.WordDao
 import com.onewordaday.app.data.local.entity.DailyWordEntity
 import com.onewordaday.app.data.local.seeder.WordDatabaseSeeder
 import com.onewordaday.app.data.model.Word
+import com.onewordaday.app.data.model.WordTheme
 import com.onewordaday.app.util.DateUtils
 import com.onewordaday.app.util.PreferencesManager
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
+import java.text.SimpleDateFormat
+import java.util.Calendar
+import java.util.Locale
 import javax.inject.Inject
 import javax.inject.Singleton
 
@@ -43,9 +47,8 @@ class WordRepositoryImpl @Inject constructor(
         }
 
         if (unusedCount == 0) {
-            val fallbackTheme = com.onewordaday.app.data.model.WordTheme.GENERAL
-            wordDao.resetBundledWordsForTheme(fallbackTheme.key)
-            val fallback = wordDao.getUnusedWordByTheme(fallbackTheme.key)!!
+            wordDao.resetBundledWordsForTheme(WordTheme.GENERAL.key)
+            val fallback = wordDao.getUnusedWordByTheme(WordTheme.GENERAL.key)!!
             wordDao.markAsUsed(fallback.id, date)
             dailyWordDao.upsert(DailyWordEntity(date, fallback.id, fallback.theme))
             return fallback.toDomain()
@@ -64,6 +67,75 @@ class WordRepositoryImpl @Inject constructor(
         }
     }
 
-    override fun getHistoryWords(): Flow<List<Word>> =
-        dailyWordDao.getHistoryWords().map { list -> list.map { it.toDomain() } }
+    override suspend fun getWordById(id: Long): Word? = wordDao.getById(id)?.toDomain()
+
+    override fun getHistoryWithDates(): Flow<List<Pair<Word, String>>> =
+        dailyWordDao.getHistoryWithDates().map { list ->
+            list.map { it.wordEntity.toDomain() to it.date }
+        }
+
+    override suspend fun getCurrentStreak(): Int {
+        val seenDates = dailyWordDao.getSeenDates()
+        return calculateStreak(seenDates, fromStart = false)
+    }
+
+    override suspend fun getBestStreak(): Int {
+        val seenDates = dailyWordDao.getSeenDates()
+        if (seenDates.isEmpty()) return 0
+
+        val formatter = SimpleDateFormat("yyyy-MM-dd", Locale.US)
+        val cal = Calendar.getInstance()
+        var best = 1
+        var current = 1
+
+        for (i in 1 until seenDates.size) {
+            val prev = formatter.parse(seenDates[i - 1]) ?: continue
+            cal.time = prev
+            cal.add(Calendar.DAY_OF_YEAR, -1)
+            if (formatter.format(cal.time) == seenDates[i]) {
+                current++
+                if (current > best) best = current
+            } else {
+                current = 1
+            }
+        }
+        return best
+    }
+
+    override suspend fun getTotalWordsSeen(): Int = dailyWordDao.getSeenCount()
+
+    override suspend fun toggleFavourite(wordId: Long, current: Boolean) {
+        wordDao.setFavourited(wordId, !current)
+    }
+
+    override fun getFavourites(): Flow<List<Word>> =
+        wordDao.getFavourites().map { list -> list.map { it.toDomain() } }
+
+    override suspend fun getFavouritesCount(): Int = wordDao.countFavourites()
+
+    private fun calculateStreak(seenDates: List<String>, fromStart: Boolean): Int {
+        if (seenDates.isEmpty()) return 0
+
+        val today = DateUtils.today()
+        val yesterday = DateUtils.yesterday()
+        if (seenDates.first() != today && seenDates.first() != yesterday) return 0
+
+        val formatter = SimpleDateFormat("yyyy-MM-dd", Locale.US)
+        val cal = Calendar.getInstance()
+        var streak = 0
+        var expected = seenDates.first()
+
+        for (date in seenDates) {
+            if (date == expected) {
+                streak++
+                val parsed = formatter.parse(expected) ?: break
+                cal.time = parsed
+                cal.add(Calendar.DAY_OF_YEAR, -1)
+                expected = formatter.format(cal.time)
+            } else {
+                break
+            }
+        }
+        return streak
+    }
 }

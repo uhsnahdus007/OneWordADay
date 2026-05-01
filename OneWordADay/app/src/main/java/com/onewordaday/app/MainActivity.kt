@@ -9,11 +9,13 @@ import androidx.activity.compose.setContent
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.core.content.ContextCompat
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
+import androidx.lifecycle.lifecycleScope
 import dagger.hilt.android.AndroidEntryPoint
 import com.onewordaday.app.notification.NotificationChannels
 import com.onewordaday.app.notification.NotificationScheduler
 import com.onewordaday.app.ui.navigation.AppNavigation
 import com.onewordaday.app.ui.theme.OneWordADayTheme
+import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 @AndroidEntryPoint
@@ -28,7 +30,7 @@ class MainActivity : ComponentActivity() {
     private val requestPermissionLauncher = registerForActivityResult(
         ActivityResultContracts.RequestPermission()
     ) { granted ->
-        if (granted) notificationScheduler.scheduleAll()
+        if (granted) lifecycleScope.launch { notificationScheduler.scheduleAll() }
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -41,12 +43,12 @@ class MainActivity : ComponentActivity() {
             when {
                 ContextCompat.checkSelfPermission(
                     this, Manifest.permission.POST_NOTIFICATIONS
-                ) == PackageManager.PERMISSION_GRANTED -> notificationScheduler.scheduleAll()
+                ) == PackageManager.PERMISSION_GRANTED -> lifecycleScope.launch { notificationScheduler.scheduleAll() }
 
                 else -> requestPermissionLauncher.launch(Manifest.permission.POST_NOTIFICATIONS)
             }
         } else {
-            notificationScheduler.scheduleAll()
+            lifecycleScope.launch { notificationScheduler.scheduleAll() }
         }
 
         setContent {

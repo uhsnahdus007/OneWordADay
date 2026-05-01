@@ -16,7 +16,8 @@ data class WordEntity(
     val examples: String,
     val theme: String,
     val source: String = "bundled",
-    val usedOnDate: String? = null
+    val usedOnDate: String? = null,
+    val isFavourited: Boolean = false
 ) {
     fun toDomain(): Word {
         val moshi = Moshi.Builder().build()
@@ -34,7 +35,8 @@ data class WordEntity(
             definition = definition,
             examples = exampleList,
             theme = WordTheme.fromKey(theme),
-            source = source
+            source = source,
+            isFavourited = isFavourited
         )
     }
 }

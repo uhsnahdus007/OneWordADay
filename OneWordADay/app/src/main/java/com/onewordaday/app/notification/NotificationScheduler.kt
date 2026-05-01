@@ -6,6 +6,7 @@ import androidx.work.PeriodicWorkRequestBuilder
 import androidx.work.WorkManager
 import androidx.work.workDataOf
 import com.onewordaday.app.util.DateUtils
+import com.onewordaday.app.util.PreferencesManager
 import com.onewordaday.app.worker.NotificationWorker
 import dagger.hilt.android.qualifiers.ApplicationContext
 import java.util.concurrent.TimeUnit
@@ -14,36 +15,32 @@ import javax.inject.Singleton
 
 @Singleton
 class NotificationScheduler @Inject constructor(
-    @ApplicationContext private val context: Context
+    @ApplicationContext private val context: Context,
+    private val preferencesManager: PreferencesManager
 ) {
     private val workManager get() = WorkManager.getInstance(context)
-    private data class NotifSlot(val tag: String, val hour: Int, val minute: Int)
 
-    private val slots = listOf(
-        NotifSlot("notif_morning",   8,  0),
-        NotifSlot("notif_afternoon", 13, 0),
-        NotifSlot("notif_evening",   18, 0),
-        NotifSlot("notif_night",     21, 0)
+    private val slotTags = listOf(
+        "notif_morning",
+        "notif_afternoon",
+        "notif_evening",
+        "notif_night"
     )
 
-    fun scheduleAll() {
-        slots.forEach { slot ->
-            val delay = DateUtils.delayUntilTimeMs(slot.hour, slot.minute)
+    suspend fun scheduleAll() {
+        val times = preferencesManager.getNotificationTimes()
+        slotTags.zip(times).forEach { (tag, time) ->
+            val delay = DateUtils.delayUntilTimeMs(time.hour, time.minute)
             val request = PeriodicWorkRequestBuilder<NotificationWorker>(24, TimeUnit.HOURS)
                 .setInitialDelay(delay, TimeUnit.MILLISECONDS)
-                .addTag(slot.tag)
-                .setInputData(workDataOf(NotificationWorker.KEY_SLOT to slot.tag))
+                .addTag(tag)
+                .setInputData(workDataOf(NotificationWorker.KEY_SLOT to tag))
                 .build()
-
-            workManager.enqueueUniquePeriodicWork(
-                slot.tag,
-                ExistingPeriodicWorkPolicy.UPDATE,
-                request
-            )
+            workManager.enqueueUniquePeriodicWork(tag, ExistingPeriodicWorkPolicy.UPDATE, request)
         }
     }
 
     fun cancelAll() {
-        slots.forEach { workManager.cancelUniqueWork(it.tag) }
+        slotTags.forEach { workManager.cancelUniqueWork(it) }
     }
 }
