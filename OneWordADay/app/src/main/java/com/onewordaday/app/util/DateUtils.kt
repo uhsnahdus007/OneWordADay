@@ -9,6 +9,12 @@ object DateUtils {
 
     fun today(): String = isoFormatter().format(Calendar.getInstance().time)
 
+    fun yesterday(): String {
+        val cal = Calendar.getInstance()
+        cal.add(Calendar.DAY_OF_YEAR, -1)
+        return isoFormatter().format(cal.time)
+    }
+
     fun tomorrow(): String {
         val cal = Calendar.getInstance()
         cal.add(Calendar.DAY_OF_YEAR, 1)

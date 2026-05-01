@@ -5,6 +5,7 @@ import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
 import com.onewordaday.app.data.local.entity.WordEntity
+import kotlinx.coroutines.flow.Flow
 
 @Dao
 interface WordDao {
@@ -29,4 +30,13 @@ interface WordDao {
 
     @Query("SELECT COUNT(*) FROM words")
     suspend fun count(): Int
+
+    @Query("UPDATE words SET isFavourited = :favourited WHERE id = :id")
+    suspend fun setFavourited(id: Long, favourited: Boolean)
+
+    @Query("SELECT * FROM words WHERE isFavourited = 1 ORDER BY word ASC")
+    fun getFavourites(): Flow<List<WordEntity>>
+
+    @Query("SELECT COUNT(*) FROM words WHERE isFavourited = 1")
+    suspend fun countFavourites(): Int
 }

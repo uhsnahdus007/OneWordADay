@@ -1,5 +1,6 @@
 package com.onewordaday.app.ui.screen.history
 
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -34,10 +35,14 @@ import com.onewordaday.app.ui.theme.Accent
 import com.onewordaday.app.ui.theme.Background
 import com.onewordaday.app.ui.theme.OnSurfaceVariant
 import com.onewordaday.app.ui.theme.Surface
+import com.onewordaday.app.util.DateUtils
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun HistoryScreen(viewModel: HistoryViewModel = hiltViewModel()) {
+fun HistoryScreen(
+    onWordClick: (wordId: Long) -> Unit = {},
+    viewModel: HistoryViewModel = hiltViewModel()
+) {
     val words by viewModel.historyWords.collectAsStateWithLifecycle()
 
     Scaffold(
@@ -75,8 +80,12 @@ fun HistoryScreen(viewModel: HistoryViewModel = hiltViewModel()) {
                     .padding(horizontal = 16.dp)
             ) {
                 item { Spacer(Modifier.height(8.dp)) }
-                items(words) { word ->
-                    HistoryWordItem(word)
+                items(words) { (word, date) ->
+                    HistoryWordItem(
+                        word = word,
+                        date = date,
+                        onClick = { onWordClick(word.id) }
+                    )
                     Spacer(Modifier.height(8.dp))
                 }
                 item { Spacer(Modifier.height(16.dp)) }
@@ -86,9 +95,11 @@ fun HistoryScreen(viewModel: HistoryViewModel = hiltViewModel()) {
 }
 
 @Composable
-private fun HistoryWordItem(word: Word) {
+private fun HistoryWordItem(word: Word, date: String, onClick: () -> Unit) {
     Card(
-        modifier = Modifier.fillMaxWidth(),
+        modifier = Modifier
+            .fillMaxWidth()
+            .clickable(onClick = onClick),
         shape = RoundedCornerShape(12.dp),
         colors = CardDefaults.cardColors(containerColor = Surface),
         elevation = CardDefaults.cardElevation(0.dp)
@@ -109,6 +120,12 @@ private fun HistoryWordItem(word: Word) {
                     style = MaterialTheme.typography.labelSmall,
                     fontStyle = FontStyle.Italic,
                     color = OnSurfaceVariant
+                )
+                Spacer(Modifier.height(4.dp))
+                Text(
+                    text = DateUtils.formatForDisplay(date),
+                    style = MaterialTheme.typography.bodyMedium,
+                    color = OnSurfaceVariant.copy(alpha = 0.6f)
                 )
             }
             Spacer(Modifier.width(8.dp))
