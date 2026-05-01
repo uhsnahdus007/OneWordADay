@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OneWordADay</string>
+    <string name="notif_channel_name">Daily Word Reminders</string>
+    <string name="notif_channel_desc">Reminders to practice your word of the day</string>
+</resources>

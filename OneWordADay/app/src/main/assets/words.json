@@ -1,0 +1,2202 @@
+[
+  {
+    "word": "eloquent",
+    "partOfSpeech": "adjective",
+    "definition": "Fluent and persuasive in speaking or writing.",
+    "examples": [
+      "Her eloquent speech moved the entire audience to tears.",
+      "He gave an eloquent defence of his position without raising his voice.",
+      "The letter was so eloquent that it convinced the board to reverse their decision."
+    ],
+    "theme": "GENERAL"
+  },
+  {
+    "word": "resilient",
+    "partOfSpeech": "adjective",
+    "definition": "Able to recover quickly from difficulties; tough.",
+    "examples": [
+      "Children are remarkably resilient and can adapt to new environments faster than adults.",
+      "A resilient economy bounces back from setbacks without prolonged disruption.",
+      "She proved resilient in the face of repeated rejection, submitting her manuscript twenty times."
+    ],
+    "theme": "GENERAL"
+  },
+  {
+    "word": "meticulous",
+    "partOfSpeech": "adjective",
+    "definition": "Showing great attention to detail; very careful and precise.",
+    "examples": [
+      "He was meticulous about proofreading every email before hitting send.",
+      "The surgeon's meticulous technique left almost no scar.",
+      "She kept a meticulous record of every expense, down to the last rupee."
+    ],
+    "theme": "GENERAL"
+  },
+  {
+    "word": "candid",
+    "partOfSpeech": "adjective",
+    "definition": "Truthful and straightforward; not concealing one's thoughts.",
+    "examples": [
+      "I appreciate your candid feedback — it helps me improve.",
+      "He was candid about the project's risks during the investor meeting.",
+      "She gave a surprisingly candid interview about her struggles with self-doubt."
+    ],
+    "theme": "GENERAL"
+  },
+  {
+    "word": "pragmatic",
+    "partOfSpeech": "adjective",
+    "definition": "Dealing with things sensibly and practically rather than theoretically.",
+    "examples": [
+      "A pragmatic approach to the budget cuts saved the department from chaos.",
+      "She ignored ideological debates and took a pragmatic stance on the issue.",
+      "Being pragmatic doesn't mean abandoning your values — it means choosing battles wisely."
+    ],
+    "theme": "GENERAL"
+  },
+  {
+    "word": "introspective",
+    "partOfSpeech": "adjective",
+    "definition": "Examining one's own thoughts and feelings.",
+    "examples": [
+      "Journaling made him more introspective about his reactions to stress.",
+      "She spent an introspective afternoon walking alone by the lake.",
+      "The introspective novel explores the narrator's guilt over a childhood mistake."
+    ],
+    "theme": "GENERAL"
+  },
+  {
+    "word": "verbose",
+    "partOfSpeech": "adjective",
+    "definition": "Using more words than necessary; wordy.",
+    "examples": [
+      "His verbose email could have been summarised in three bullet points.",
+      "Try not to be verbose in your reports — executives have little time to read.",
+      "The verbose contract confused everyone; a plain-English version was requested."
+    ],
+    "theme": "GENERAL"
+  },
+  {
+    "word": "ephemeral",
+    "partOfSpeech": "adjective",
+    "definition": "Lasting for a very short time.",
+    "examples": [
+      "Fame can be ephemeral — yesterday's celebrity is today's forgotten name.",
+      "The ephemeral beauty of cherry blossoms makes them all the more precious.",
+      "Social media trends are ephemeral; what's viral today disappears by tomorrow."
+    ],
+    "theme": "GENERAL"
+  },
+  {
+    "word": "tenacious",
+    "partOfSpeech": "adjective",
+    "definition": "Holding firmly to something; not readily giving up.",
+    "examples": [
+      "Her tenacious pursuit of the truth kept the investigation alive for years.",
+      "A tenacious negotiator never accepts the first offer.",
+      "Despite repeated failures, his tenacious spirit eventually led to success."
+    ],
+    "theme": "GENERAL"
+  },
+  {
+    "word": "empathy",
+    "partOfSpeech": "noun",
+    "definition": "The ability to understand and share the feelings of another.",
+    "examples": [
+      "Good doctors combine medical knowledge with genuine empathy for their patients.",
+      "Empathy is not sympathy — it means feeling with someone, not just feeling for them.",
+      "Teaching children empathy early reduces bullying in schools."
+    ],
+    "theme": "GENERAL"
+  },
+  {
+    "word": "ambiguous",
+    "partOfSpeech": "adjective",
+    "definition": "Open to more than one interpretation; unclear.",
+    "examples": [
+      "The contract clause was ambiguous, leading to a costly dispute.",
+      "His ambiguous smile left her unsure whether he was agreeing or mocking her.",
+      "Avoid ambiguous instructions when delegating tasks to your team."
+    ],
+    "theme": "GENERAL"
+  },
+  {
+    "word": "lucid",
+    "partOfSpeech": "adjective",
+    "definition": "Expressed clearly; easy to understand.",
+    "examples": [
+      "She gave a lucid explanation of quantum physics to a room full of schoolchildren.",
+      "After the fever broke, he became lucid and recognised his family.",
+      "A lucid argument is always more persuasive than a complicated one."
+    ],
+    "theme": "GENERAL"
+  },
+  {
+    "word": "perseverance",
+    "partOfSpeech": "noun",
+    "definition": "Continued effort to do or achieve something despite difficulty.",
+    "examples": [
+      "Perseverance, more than talent, is what separates successful people from others.",
+      "Her perseverance through a decade of rejections finally led to a published novel.",
+      "Learning a new language requires daily perseverance."
+    ],
+    "theme": "GENERAL"
+  },
+  {
+    "word": "cynical",
+    "partOfSpeech": "adjective",
+    "definition": "Believing that people are motivated only by self-interest; distrustful.",
+    "examples": [
+      "Years in politics had made him cynical about anyone's promises.",
+      "A cynical consumer reads every advertisement with a raised eyebrow.",
+      "Try not to be cynical about kindness — most people genuinely mean well."
+    ],
+    "theme": "GENERAL"
+  },
+  {
+    "word": "succinct",
+    "partOfSpeech": "adjective",
+    "definition": "Briefly and clearly expressed.",
+    "examples": [
+      "A succinct summary saves everyone time in a long meeting.",
+      "Her succinct reply — 'No.' — ended the debate immediately.",
+      "The best job applications are succinct and focused on outcomes."
+    ],
+    "theme": "GENERAL"
+  },
+  {
+    "word": "diligent",
+    "partOfSpeech": "adjective",
+    "definition": "Having or showing care and conscientiousness in one's work.",
+    "examples": [
+      "A diligent student reviews notes the same evening after class.",
+      "Her diligent research uncovered evidence no one else had noticed.",
+      "Diligent maintenance of equipment prevents costly breakdowns."
+    ],
+    "theme": "GENERAL"
+  },
+  {
+    "word": "nonchalant",
+    "partOfSpeech": "adjective",
+    "definition": "Feeling or appearing casually calm and relaxed.",
+    "examples": [
+      "He walked into the interview with a nonchalant confidence that impressed the panel.",
+      "She shrugged with a nonchalant air, though she was nervous inside.",
+      "His nonchalant attitude toward deadlines frustrated his teammates."
+    ],
+    "theme": "GENERAL"
+  },
+  {
+    "word": "altruistic",
+    "partOfSpeech": "adjective",
+    "definition": "Showing selfless concern for the wellbeing of others.",
+    "examples": [
+      "Her altruistic decision to donate her bonus to charity inspired the whole office.",
+      "Altruistic behaviour in nature, like bees dying for the hive, fascinates biologists.",
+      "Not every kind act is altruistic — sometimes we give to feel good ourselves."
+    ],
+    "theme": "GENERAL"
+  },
+  {
+    "word": "frugal",
+    "partOfSpeech": "adjective",
+    "definition": "Sparing or economical with money or food; not wasteful.",
+    "examples": [
+      "Living frugally during his twenties allowed him to retire a decade early.",
+      "She was frugal with resources but generous with her time.",
+      "A frugal kitchen wastes nothing — yesterday's bread becomes today's croutons."
+    ],
+    "theme": "GENERAL"
+  },
+  {
+    "word": "assertive",
+    "partOfSpeech": "adjective",
+    "definition": "Having or showing a confident and forceful personality.",
+    "examples": [
+      "Being assertive in negotiations means stating your needs clearly without aggression.",
+      "She trained herself to be assertive after years of letting others speak for her.",
+      "An assertive employee earns respect; an aggressive one earns resentment."
+    ],
+    "theme": "GENERAL"
+  },
+  {
+    "word": "spontaneous",
+    "partOfSpeech": "adjective",
+    "definition": "Performed or occurring as a result of impulse rather than planning.",
+    "examples": [
+      "Their spontaneous road trip turned into the best weekend of the year.",
+      "Spontaneous applause broke out when the musician finished the piece.",
+      "She loved his spontaneous gestures — flowers left on her desk for no reason."
+    ],
+    "theme": "GENERAL"
+  },
+  {
+    "word": "indifferent",
+    "partOfSpeech": "adjective",
+    "definition": "Having no particular interest or concern; unconcerned.",
+    "examples": [
+      "He was indifferent to the critics' reviews — he made art for himself.",
+      "A truly indifferent referee is hard to find in local politics.",
+      "She seemed indifferent to the cold, walking outside without a jacket."
+    ],
+    "theme": "GENERAL"
+  },
+  {
+    "word": "audacious",
+    "partOfSpeech": "adjective",
+    "definition": "Showing a willingness to take surprisingly bold risks.",
+    "examples": [
+      "The startup's audacious plan to challenge the biggest bank in the country paid off.",
+      "It was audacious of him to ask for a raise after only two weeks on the job.",
+      "History favours audacious leaders who act when others hesitate."
+    ],
+    "theme": "GENERAL"
+  },
+  {
+    "word": "serendipity",
+    "partOfSpeech": "noun",
+    "definition": "The occurrence of fortunate events by chance.",
+    "examples": [
+      "Meeting my best friend at the wrong bus stop was pure serendipity.",
+      "Scientific breakthroughs are often the result of serendipity, not pure planning.",
+      "She believed in serendipity — that the right people appear at the right moment."
+    ],
+    "theme": "GENERAL"
+  },
+  {
+    "word": "inevitable",
+    "partOfSpeech": "adjective",
+    "definition": "Certain to happen; unavoidable.",
+    "examples": [
+      "Change is inevitable — the only question is how you respond to it.",
+      "A clash between the two rivals seemed inevitable given their history.",
+      "It felt inevitable that they would meet again in a city that small."
+    ],
+    "theme": "GENERAL"
+  },
+  {
+    "word": "dignified",
+    "partOfSpeech": "adjective",
+    "definition": "Having or showing a composed or serious manner worthy of respect.",
+    "examples": [
+      "She handled the criticism in a dignified way, neither deflecting nor crumbling.",
+      "A dignified silence can be more powerful than any argument.",
+      "He remained dignified even in defeat, congratulating his opponent warmly."
+    ],
+    "theme": "GENERAL"
+  },
+  {
+    "word": "complacent",
+    "partOfSpeech": "adjective",
+    "definition": "Showing smug or uncritical satisfaction with oneself; unaware of possible danger.",
+    "examples": [
+      "Success made him complacent, and he stopped improving his skills.",
+      "A company that becomes complacent about quality will eventually lose customers.",
+      "Don't become complacent just because you passed your probation period."
+    ],
+    "theme": "GENERAL"
+  },
+  {
+    "word": "articulate",
+    "partOfSpeech": "adjective",
+    "definition": "Having or showing the ability to speak fluently and coherently.",
+    "examples": [
+      "An articulate candidate can explain complex policies to ordinary voters.",
+      "She became more articulate in English after six months of daily practice.",
+      "Articulate writing is a rare skill in an age of instant messaging."
+    ],
+    "theme": "GENERAL"
+  },
+  {
+    "word": "ambivalent",
+    "partOfSpeech": "adjective",
+    "definition": "Having mixed feelings or contradictory ideas about something.",
+    "examples": [
+      "She felt ambivalent about the promotion — it meant more money but less time with family.",
+      "He was ambivalent about moving abroad, excited yet reluctant to leave his roots.",
+      "Voters remain ambivalent about the new policy despite months of public debate."
+    ],
+    "theme": "GENERAL"
+  },
+  {
+    "word": "meander",
+    "partOfSpeech": "verb",
+    "definition": "To follow a winding course; to talk or write without a clear direction.",
+    "examples": [
+      "The river meanders through the valley before emptying into the sea.",
+      "His speech began to meander and the audience lost interest after ten minutes.",
+      "She liked to meander through the market on Sunday mornings with no agenda."
+    ],
+    "theme": "GENERAL"
+  },
+  {
+    "word": "impeccable",
+    "partOfSpeech": "adjective",
+    "definition": "In accordance with the highest standards; faultless.",
+    "examples": [
+      "Her impeccable timing as a comedian made every punchline land perfectly.",
+      "He had an impeccable academic record — straight distinctions across all subjects.",
+      "The hotel's impeccable service turned first-time guests into loyal regulars."
+    ],
+    "theme": "GENERAL"
+  },
+  {
+    "word": "gregarious",
+    "partOfSpeech": "adjective",
+    "definition": "Fond of company; sociable.",
+    "examples": [
+      "Her gregarious personality made her the centre of every gathering.",
+      "Dolphins are gregarious animals that rarely thrive in isolation.",
+      "He was naturally gregarious, striking up conversations with strangers on trains."
+    ],
+    "theme": "GENERAL"
+  },
+  {
+    "word": "volatile",
+    "partOfSpeech": "adjective",
+    "definition": "Liable to change rapidly and unpredictably, especially for the worse.",
+    "examples": [
+      "The stock market was volatile throughout the election week.",
+      "A volatile temper is hard to work around in a team environment.",
+      "Chemical storage of volatile substances requires special ventilation."
+    ],
+    "theme": "GENERAL"
+  },
+  {
+    "word": "catalyst",
+    "partOfSpeech": "noun",
+    "definition": "A person or thing that precipitates an event or change.",
+    "examples": [
+      "The viral video was the catalyst that launched her career overnight.",
+      "Mentorship often acts as a catalyst for a young professional's growth.",
+      "A single spark can be the catalyst for widespread social reform."
+    ],
+    "theme": "GENERAL"
+  },
+  {
+    "word": "lament",
+    "partOfSpeech": "verb",
+    "definition": "To express grief, regret, or sorrow; to mourn.",
+    "examples": [
+      "He lamented the loss of traditional craftsmanship in modern manufacturing.",
+      "She would lament for hours about opportunities she had missed.",
+      "There is no use lamenting the past — focus on what you can change now."
+    ],
+    "theme": "GENERAL"
+  },
+  {
+    "word": "equanimity",
+    "partOfSpeech": "noun",
+    "definition": "Mental calmness, especially in difficult situations.",
+    "examples": [
+      "She faced the devastating diagnosis with remarkable equanimity.",
+      "Meditation helped him develop the equanimity to handle daily frustrations.",
+      "A surgeon must maintain equanimity even when the situation is dire."
+    ],
+    "theme": "GENERAL"
+  },
+  {
+    "word": "ostentatious",
+    "partOfSpeech": "adjective",
+    "definition": "Designed to impress or attract notice; showy.",
+    "examples": [
+      "His ostentatious car and designer watch screamed insecurity more than success.",
+      "An ostentatious wedding can overshadow what the day is actually about.",
+      "She avoided ostentatious displays of wealth, preferring quiet generosity."
+    ],
+    "theme": "GENERAL"
+  },
+  {
+    "word": "debacle",
+    "partOfSpeech": "noun",
+    "definition": "A sudden disastrous collapse or failure; a fiasco.",
+    "examples": [
+      "The product launch was a debacle — the website crashed within minutes.",
+      "The election campaign turned into a debacle after the scandal broke.",
+      "What started as a picnic became a debacle when the storm arrived."
+    ],
+    "theme": "GENERAL"
+  },
+  {
+    "word": "prudent",
+    "partOfSpeech": "adjective",
+    "definition": "Acting with or showing care and thought for the future.",
+    "examples": [
+      "It is prudent to keep three months of expenses as an emergency fund.",
+      "A prudent investor diversifies rather than betting everything on one asset.",
+      "She made the prudent decision to get the car checked before the long drive."
+    ],
+    "theme": "GENERAL"
+  },
+  {
+    "word": "formidable",
+    "partOfSpeech": "adjective",
+    "definition": "Inspiring fear or respect through being impressively large, powerful, or capable.",
+    "examples": [
+      "She was a formidable opponent in any debate, armed with data and wit.",
+      "The mountain looked formidable in the early morning mist.",
+      "Building a startup is a formidable challenge, but not an impossible one."
+    ],
+    "theme": "GENERAL"
+  },
+  {
+    "word": "compassionate",
+    "partOfSpeech": "adjective",
+    "definition": "Feeling or showing sympathy and concern for others.",
+    "examples": [
+      "A compassionate manager checks in on their team during difficult times.",
+      "The nurse's compassionate manner calmed even the most anxious patients.",
+      "Compassionate listening sometimes means saying nothing and just being present."
+    ],
+    "theme": "GENERAL"
+  },
+  {
+    "word": "innovative",
+    "partOfSpeech": "adjective",
+    "definition": "Featuring new methods; advanced and original.",
+    "examples": [
+      "The company's innovative packaging reduced plastic waste by sixty percent.",
+      "An innovative teacher finds new ways to explain the same old concept.",
+      "Innovative thinking often comes from combining ideas across different fields."
+    ],
+    "theme": "GENERAL"
+  },
+  {
+    "word": "obsolete",
+    "partOfSpeech": "adjective",
+    "definition": "No longer produced or used; out of date.",
+    "examples": [
+      "Fax machines became obsolete long before most offices stopped using them.",
+      "A skill becomes obsolete when automation can perform it faster and cheaper.",
+      "The law was obsolete, dating back to a time when the internet did not exist."
+    ],
+    "theme": "GENERAL"
+  },
+  {
+    "word": "paradox",
+    "partOfSpeech": "noun",
+    "definition": "A seemingly absurd or contradictory statement that may prove to be true.",
+    "examples": [
+      "The paradox of choice: having too many options can lead to no decision at all.",
+      "It is a paradox that the more connected we are digitally, the lonelier we feel.",
+      "Her paradox was wanting solitude but also craving deep connection."
+    ],
+    "theme": "GENERAL"
+  },
+  {
+    "word": "humility",
+    "partOfSpeech": "noun",
+    "definition": "The quality of having a modest view of one's own importance.",
+    "examples": [
+      "True confidence is built on humility — knowing what you don't know.",
+      "His humility after winning the award made everyone respect him more.",
+      "Humility in leadership means giving credit to the team, not just yourself."
+    ],
+    "theme": "GENERAL"
+  },
+  {
+    "word": "scrutiny",
+    "partOfSpeech": "noun",
+    "definition": "Critical observation or examination.",
+    "examples": [
+      "Every public figure must be prepared for intense media scrutiny.",
+      "Under scrutiny, the data revealed patterns no one had anticipated.",
+      "Her plan withstood scrutiny from even the most skeptical panel members."
+    ],
+    "theme": "GENERAL"
+  },
+  {
+    "word": "subtle",
+    "partOfSpeech": "adjective",
+    "definition": "So delicate or precise as to be difficult to analyse or describe.",
+    "examples": [
+      "There was a subtle difference in flavour between the two varieties.",
+      "Her subtle humour required you to pay close attention.",
+      "The policy change had a subtle but lasting impact on small businesses."
+    ],
+    "theme": "GENERAL"
+  },
+  {
+    "word": "rigorous",
+    "partOfSpeech": "adjective",
+    "definition": "Extremely thorough and careful.",
+    "examples": [
+      "A rigorous peer-review process ensures the quality of published research.",
+      "He put himself through a rigorous training programme before the marathon.",
+      "Rigorous testing before launch prevented a major software failure."
+    ],
+    "theme": "GENERAL"
+  },
+  {
+    "word": "redundant",
+    "partOfSpeech": "adjective",
+    "definition": "Not or no longer needed; superfluous.",
+    "examples": [
+      "With the merger, many roles became redundant and staff were let go.",
+      "Saying 'free gift' is redundant — a gift is always free by definition.",
+      "Backing up data is never redundant, no matter how unlikely a crash seems."
+    ],
+    "theme": "GENERAL"
+  },
+  {
+    "word": "convoluted",
+    "partOfSpeech": "adjective",
+    "definition": "Extremely complex and difficult to follow.",
+    "examples": [
+      "His convoluted explanation confused rather than clarified the situation.",
+      "The tax filing process is unnecessarily convoluted for most individuals.",
+      "A convoluted plot can lose the audience before the climax arrives."
+    ],
+    "theme": "GENERAL"
+  },
+  {
+    "word": "impartial",
+    "partOfSpeech": "adjective",
+    "definition": "Treating all rivals or disputants equally; fair and just.",
+    "examples": [
+      "A judge must remain impartial regardless of personal views.",
+      "She tried to give an impartial account of the argument she had witnessed.",
+      "Impartial reporting is becoming harder to find in a polarised media landscape."
+    ],
+    "theme": "GENERAL"
+  },
+  {
+    "word": "vindictive",
+    "partOfSpeech": "adjective",
+    "definition": "Having or showing a strong desire for revenge.",
+    "examples": [
+      "A vindictive manager can poison the culture of an entire department.",
+      "She didn't want to seem vindictive, so she kept her criticism constructive.",
+      "The review was vindictive rather than honest — clearly a personal attack."
+    ],
+    "theme": "GENERAL"
+  },
+  {
+    "word": "reverence",
+    "partOfSpeech": "noun",
+    "definition": "Deep respect for someone or something.",
+    "examples": [
+      "He spoke of his teacher with a reverence that moved everyone in the room.",
+      "Many cultures approach nature with a reverence rarely seen in modern cities.",
+      "She treated old books with reverence, never breaking their spines."
+    ],
+    "theme": "GENERAL"
+  },
+  {
+    "word": "tranquil",
+    "partOfSpeech": "adjective",
+    "definition": "Free from disturbance; calm.",
+    "examples": [
+      "The village was so tranquil you could hear birds from across the valley.",
+      "A tranquil mind is the greatest luxury anyone can have.",
+      "She found the tranquil hour before dawn the best time to write."
+    ],
+    "theme": "GENERAL"
+  },
+  {
+    "word": "melancholy",
+    "partOfSpeech": "noun",
+    "definition": "A feeling of pensive sadness, typically with no obvious cause.",
+    "examples": [
+      "The old photograph filled him with a quiet melancholy.",
+      "Autumn has a melancholy beauty that feels different from any other season.",
+      "She mistook her Sunday evening melancholy for dissatisfaction with her life."
+    ],
+    "theme": "GENERAL"
+  },
+  {
+    "word": "eloquence",
+    "partOfSpeech": "noun",
+    "definition": "Fluent or persuasive speaking or writing.",
+    "examples": [
+      "His eloquence in the courtroom earned him a reputation across the state.",
+      "Eloquence is not about long words — it is about the right words at the right moment.",
+      "She admired the eloquence of his apology; it seemed entirely genuine."
+    ],
+    "theme": "GENERAL"
+  },
+  {
+    "word": "integrity",
+    "partOfSpeech": "noun",
+    "definition": "The quality of being honest and having strong moral principles.",
+    "examples": [
+      "Integrity means doing the right thing even when no one is watching.",
+      "His integrity was tested when he discovered the fraud and had to decide whether to report it.",
+      "A brand built on integrity can survive a scandal; one built on spin cannot."
+    ],
+    "theme": "GENERAL"
+  },
+  {
+    "word": "stoic",
+    "partOfSpeech": "adjective",
+    "definition": "Enduring pain or hardship without showing feelings or complaining.",
+    "examples": [
+      "She maintained a stoic composure during the difficult hearing.",
+      "A stoic attitude does not mean suppressing emotions — it means not being ruled by them.",
+      "He was stoic about the long recovery, focusing only on what he could control."
+    ],
+    "theme": "GENERAL"
+  },
+  {
+    "word": "tenacity",
+    "partOfSpeech": "noun",
+    "definition": "The quality of being very determined and persistent.",
+    "examples": [
+      "It was her tenacity, more than her talent, that got her to the top.",
+      "The tenacity of small businesses through the pandemic was inspiring.",
+      "Climbing that mountain required both physical strength and pure tenacity."
+    ],
+    "theme": "GENERAL"
+  },
+  {
+    "word": "magnanimous",
+    "partOfSpeech": "adjective",
+    "definition": "Very generous or forgiving, especially towards a rival.",
+    "examples": [
+      "Jon Snow was magnanimous in victory, refusing to execute the surrendered Lannister soldiers.",
+      "Daenerys promised to be magnanimous to cities that opened their gates without a fight.",
+      "Tyrion counselled that a magnanimous queen earns more loyalty than a feared one."
+    ],
+    "theme": "GOT"
+  },
+  {
+    "word": "sovereignty",
+    "partOfSpeech": "noun",
+    "definition": "Supreme power or authority, especially of a state.",
+    "examples": [
+      "Each of the Seven Kingdoms once held sovereignty before the Targaryens unified them.",
+      "Daenerys's claim to sovereignty rested on her family name and her dragons.",
+      "The Night's Watch swore loyalty to no king, protecting the realm's sovereignty over all else."
+    ],
+    "theme": "GOT"
+  },
+  {
+    "word": "duplicity",
+    "partOfSpeech": "noun",
+    "definition": "Deceitfulness; double-dealing.",
+    "examples": [
+      "Littlefinger's duplicity went undetected for years, playing every faction against each other.",
+      "The Red Wedding was made possible by the Freys' deliberate duplicity.",
+      "Cersei's duplicity in signing the truce was apparent to anyone watching her eyes."
+    ],
+    "theme": "GOT"
+  },
+  {
+    "word": "ruthless",
+    "partOfSpeech": "adjective",
+    "definition": "Having or showing no pity or compassion for others.",
+    "examples": [
+      "Cersei's ruthless elimination of rivals made her one of the most feared players in the game.",
+      "Tywin Lannister was ruthless in protecting his family's legacy at any cost.",
+      "The Night King was ruthless, adding every fallen warrior to his army of the dead."
+    ],
+    "theme": "GOT"
+  },
+  {
+    "word": "exile",
+    "partOfSpeech": "noun",
+    "definition": "The state of being sent away from one's home country or region, typically as punishment.",
+    "examples": [
+      "Daenerys spent her childhood in exile across the Narrow Sea.",
+      "Jon's exile beyond the Wall was a political solution as much as a punishment.",
+      "Many noble houses chose voluntary exile over submission to the new ruler."
+    ],
+    "theme": "GOT"
+  },
+  {
+    "word": "allegiance",
+    "partOfSpeech": "noun",
+    "definition": "Loyalty or commitment to a superior or to a group or cause.",
+    "examples": [
+      "The Northern lords pledged their allegiance to Jon Snow as King in the North.",
+      "Jaime Lannister's allegiance was always torn between his family and his honour.",
+      "In Westeros, allegiance shifts with power — loyalty is always conditional."
+    ],
+    "theme": "GOT"
+  },
+  {
+    "word": "cunning",
+    "partOfSpeech": "adjective",
+    "definition": "Having or showing skill in achieving one's ends by deceit.",
+    "examples": [
+      "Tyrion's cunning allowed him to survive courts that killed less clever men.",
+      "Arya's cunning disguises let her move freely through enemy territory.",
+      "The cunning of the Red Viper was legendary, but it ultimately cost him his life."
+    ],
+    "theme": "GOT"
+  },
+  {
+    "word": "fealty",
+    "partOfSpeech": "noun",
+    "definition": "A feudal tenant's acknowledgment of loyalty to their lord.",
+    "examples": [
+      "Every lord in Westeros swore fealty to the Iron Throne.",
+      "Ned Stark believed fealty was a sacred bond, not a political tool.",
+      "Fealty was demanded by fear in Joffrey's court, not earned through respect."
+    ],
+    "theme": "GOT"
+  },
+  {
+    "word": "siege",
+    "partOfSpeech": "noun",
+    "definition": "A military operation in which forces surround a place to compel surrender.",
+    "examples": [
+      "The siege of Riverrun lasted weeks before the Blackfish finally relented.",
+      "Stannis's siege of Castle Black was broken by the Wildlings' unexpected alliance.",
+      "During the siege of King's Landing, wildfire turned the battle in an instant."
+    ],
+    "theme": "GOT"
+  },
+  {
+    "word": "prophecy",
+    "partOfSpeech": "noun",
+    "definition": "A prediction of what will happen, especially one made by divine inspiration.",
+    "examples": [
+      "Melisandre built her entire strategy around a prophecy about the Prince That Was Promised.",
+      "The prophecy of the valonqar haunted Cersei from the moment she heard it.",
+      "In Westeros, prophecies rarely mean what you think until after they come true."
+    ],
+    "theme": "GOT"
+  },
+  {
+    "word": "treachery",
+    "partOfSpeech": "noun",
+    "definition": "Betrayal of trust; deceptive action or nature.",
+    "examples": [
+      "The Red Wedding became the defining symbol of treachery in the Seven Kingdoms.",
+      "Robb Stark underestimated the treachery that surrounded him even among allies.",
+      "Treachery in Westeros is rarely punished — it is usually rewarded."
+    ],
+    "theme": "GOT"
+  },
+  {
+    "word": "formidable",
+    "partOfSpeech": "adjective",
+    "definition": "Inspiring fear or respect through being impressively powerful.",
+    "examples": [
+      "Brienne of Tarth was a formidable warrior who defeated the Hound in single combat.",
+      "The dragons made Daenerys a formidable force that no conventional army could match.",
+      "Even without his sword hand, Jaime was a formidable political opponent."
+    ],
+    "theme": "GOT"
+  },
+  {
+    "word": "vengeance",
+    "partOfSpeech": "noun",
+    "definition": "Punishment inflicted or retribution exacted for an injury or wrong.",
+    "examples": [
+      "Arya Stark carried a list of names, each one representing vengeance she intended to claim.",
+      "Daenerys warned that she would take vengeance on those who betrayed her.",
+      "The pursuit of vengeance consumed Oberyn Martell until it destroyed him."
+    ],
+    "theme": "GOT"
+  },
+  {
+    "word": "stoic",
+    "partOfSpeech": "adjective",
+    "definition": "Enduring pain or hardship without showing feelings or complaining.",
+    "examples": [
+      "Ned Stark faced his execution with a stoic dignity that his family tried to emulate.",
+      "Jon Snow's stoic nature sometimes made it impossible for allies to read him.",
+      "The stoic watchmen of the Night's Watch rarely discussed the horrors they had seen."
+    ],
+    "theme": "GOT"
+  },
+  {
+    "word": "raven",
+    "partOfSpeech": "noun",
+    "definition": "A large black bird associated with omens; in GoT, the primary means of long-distance communication.",
+    "examples": [
+      "The raven arrived at Winterfell carrying news of the king's impending visit.",
+      "Bran's ability to warg into ravens made him an invaluable intelligence asset.",
+      "A raven from the Citadel confirmed what Sam had long suspected about dragonglass."
+    ],
+    "theme": "GOT"
+  },
+  {
+    "word": "citadel",
+    "partOfSpeech": "noun",
+    "definition": "A fortress protecting or dominating a city; in GoT, the seat of the Maesters.",
+    "examples": [
+      "Sam travelled to the Citadel to train as a Maester and find a way to defeat the White Walkers.",
+      "The Citadel's vast library held centuries of knowledge about the Long Night.",
+      "Archmaester Ebrose at the Citadel was sceptical of Sam's claims about the undead."
+    ],
+    "theme": "GOT"
+  },
+  {
+    "word": "bastard",
+    "partOfSpeech": "noun",
+    "definition": "A person born of unmarried parents; in Westeros, a social and legal designation with stigma.",
+    "examples": [
+      "Jon Snow grew up at Winterfell knowing he was a bastard, though he never knew who his mother was.",
+      "In the North, bastards are given the surname Snow to mark their illegitimate birth.",
+      "Ramsay Bolton, born a bastard, used cruelty to prove he deserved the Bolton name."
+    ],
+    "theme": "GOT"
+  },
+  {
+    "word": "cryptic",
+    "partOfSpeech": "adjective",
+    "definition": "Having a meaning that is mysterious or obscure.",
+    "examples": [
+      "The Three-Eyed Raven's cryptic visions left Bran with more questions than answers.",
+      "Melisandre spoke in cryptic terms that only made sense after events had unfolded.",
+      "The cryptic inscription on the Valyrian blade had puzzled scholars for generations."
+    ],
+    "theme": "GOT"
+  },
+  {
+    "word": "impulsive",
+    "partOfSpeech": "adjective",
+    "definition": "Acting or done without forethought.",
+    "examples": [
+      "Robb's impulsive marriage to Talisa broke the alliance with the Freys and sealed his fate.",
+      "Daenerys's impulsive decision to fly to the Wall on her dragons changed the course of the war.",
+      "An impulsive king rarely survives his first decade on the Iron Throne."
+    ],
+    "theme": "GOT"
+  },
+  {
+    "word": "usurper",
+    "partOfSpeech": "noun",
+    "definition": "A person who takes a position of power illegally or by force.",
+    "examples": [
+      "Viserys called Robert Baratheon a usurper his entire life, nurturing his rage in exile.",
+      "Every claimant to the Iron Throne was branded a usurper by their enemies.",
+      "To the loyalists, the usurper's reign would never be legitimate no matter how long it lasted."
+    ],
+    "theme": "GOT"
+  },
+  {
+    "word": "legendary",
+    "partOfSpeech": "adjective",
+    "definition": "Remarkable enough to be famous; very well known.",
+    "examples": [
+      "Harrenhal is legendary across Westeros for the terrible fate its rulers always seem to meet.",
+      "Arthur Dayne was legendary as the greatest sword fighter who ever lived.",
+      "The Long Night is legendary among the people of Westeros, though most dismiss it as myth."
+    ],
+    "theme": "GOT"
+  },
+  {
+    "word": "ploy",
+    "partOfSpeech": "noun",
+    "definition": "A cunning plan or action designed to gain an advantage.",
+    "examples": [
+      "Tyrion's ploy at the Battle of Blackwater Bay burned Stannis's fleet before it landed.",
+      "Littlefinger's entire rise to power was built on one calculated ploy after another.",
+      "The truce offer to Daenerys was a ploy to buy Cersei time to strengthen her position."
+    ],
+    "theme": "GOT"
+  },
+  {
+    "word": "paramount",
+    "partOfSpeech": "adjective",
+    "definition": "More important than anything else; supreme.",
+    "examples": [
+      "For the Night's Watch, defending the Wall was paramount above all political conflicts.",
+      "Tywin considered the Lannister name paramount to any individual within the family.",
+      "Surviving the Long Night became the paramount concern the moment the Wall fell."
+    ],
+    "theme": "GOT"
+  },
+  {
+    "word": "lament",
+    "partOfSpeech": "verb",
+    "definition": "To express grief, regret, or sorrow.",
+    "examples": [
+      "Catelyn lamented the decisions she had made that led her family to ruin.",
+      "The songs of the North lament fallen kings with a quiet, steady sadness.",
+      "Sansa lamented her naivety in those early days at King's Landing."
+    ],
+    "theme": "GOT"
+  },
+  {
+    "word": "endearing",
+    "partOfSpeech": "adjective",
+    "definition": "Inspiring affection; charming.",
+    "examples": [
+      "Ted Mosby had an endearing habit of over-romanticising everything in his life.",
+      "Barney's ridiculous confidence was somehow endearing rather than annoying.",
+      "Marshall's childlike enthusiasm for life was endearing to everyone who knew him."
+    ],
+    "theme": "HIMYM"
+  },
+  {
+    "word": "nostalgic",
+    "partOfSpeech": "adjective",
+    "definition": "Feeling a sentimental longing for the past.",
+    "examples": [
+      "Ted grew nostalgic whenever he walked past the Booth at MacLaren's.",
+      "Robin felt nostalgic for her Canadian childhood whenever her past came up.",
+      "Marshall's nostalgic stories about his home state of Minnesota always ended with Slap Bet references."
+    ],
+    "theme": "HIMYM"
+  },
+  {
+    "word": "destined",
+    "partOfSpeech": "adjective",
+    "definition": "Certain to be or do something; having a predetermined fate.",
+    "examples": [
+      "Ted believed he and Robin were destined to be together, which made letting go so painful.",
+      "Lily told Marshall she always knew they were destined to end up married.",
+      "Some moments in Ted's story felt destined, as if the universe had planned them."
+    ],
+    "theme": "HIMYM"
+  },
+  {
+    "word": "spontaneous",
+    "partOfSpeech": "adjective",
+    "definition": "Done without planning; natural and unconstrained.",
+    "examples": [
+      "Barney's spontaneous trips to Atlantic City usually ended in legendary disaster.",
+      "Ted's spontaneous proposal at the wrong moment became a recurring joke.",
+      "The most memorable MacLaren's nights were always spontaneous — no plan required."
+    ],
+    "theme": "HIMYM"
+  },
+  {
+    "word": "legendary",
+    "partOfSpeech": "adjective",
+    "definition": "Remarkable enough to be famous; extraordinary.",
+    "examples": [
+      "Barney declared almost every evening 'legendary' regardless of what actually happened.",
+      "The gang's St. Patrick's Day of 2009 became truly legendary in their friend group lore.",
+      "Ted's stories were always slightly embellished to make his life sound more legendary."
+    ],
+    "theme": "HIMYM"
+  },
+  {
+    "word": "commitment",
+    "partOfSpeech": "noun",
+    "definition": "The state of being dedicated to a cause or relationship.",
+    "examples": [
+      "Marshall's commitment to Lily from their first date never wavered, even during their breakup.",
+      "Ted's biggest flaw and virtue were the same — his commitment to finding the one.",
+      "Robin struggled with commitment in relationships, preferring freedom over security."
+    ],
+    "theme": "HIMYM"
+  },
+  {
+    "word": "serendipity",
+    "partOfSpeech": "noun",
+    "definition": "The occurrence of fortunate events by chance.",
+    "examples": [
+      "Ted believed it was serendipity that he met Robin the same night Barney bet him to talk to a girl.",
+      "The gang's entire friendship was built on moments of serendipity — wrong turns and missed trains.",
+      "Marshall claimed it was serendipity that he found the apartment in New York on his first day."
+    ],
+    "theme": "HIMYM"
+  },
+  {
+    "word": "resilient",
+    "partOfSpeech": "adjective",
+    "definition": "Able to recover quickly from difficulties.",
+    "examples": [
+      "Lily was resilient after her art dreams failed, reinventing herself as a school counsellor.",
+      "Ted's resilient optimism after each heartbreak made him both inspiring and exhausting.",
+      "Marshall proved resilient during his father's death, finding support in his family's humour."
+    ],
+    "theme": "HIMYM"
+  },
+  {
+    "word": "whimsical",
+    "partOfSpeech": "adjective",
+    "definition": "Playfully quaint or fanciful, especially in an appealing way.",
+    "examples": [
+      "Ted's apartment was full of whimsical architectural sketches and half-finished projects.",
+      "The Mother had a whimsical sense of humour that matched Ted's perfectly.",
+      "Barney's whimsical schemes — complete with suits and blueprints — always started with a pitch."
+    ],
+    "theme": "HIMYM"
+  },
+  {
+    "word": "tenacious",
+    "partOfSpeech": "adjective",
+    "definition": "Persistent in holding on to something; not giving up.",
+    "examples": [
+      "Ted was tenacious in his search for love, refusing to give up despite years of failure.",
+      "Marshall's tenacious pursuit of environmental law defined his career.",
+      "Lily's tenacious belief that the gang would always find their way back together kept them close."
+    ],
+    "theme": "HIMYM"
+  },
+  {
+    "word": "bittersweet",
+    "partOfSpeech": "adjective",
+    "definition": "Evoking pleasure tinged with sadness or pain.",
+    "examples": [
+      "Ted's last MacLaren's night before moving to Chicago was bittersweet — joyful and heartbreaking.",
+      "The gang's slow drift apart after having children had a bittersweet quality.",
+      "The Mother's illness gave her and Ted's love story a bittersweet ending."
+    ],
+    "theme": "HIMYM"
+  },
+  {
+    "word": "verbose",
+    "partOfSpeech": "adjective",
+    "definition": "Using more words than necessary.",
+    "examples": [
+      "Ted was famously verbose — he once took forty-five minutes to tell a story about a sandwich.",
+      "Future Ted's verbose narration was both his charm and the reason his kids fell asleep.",
+      "Barney's verbose legal-style contracts for his schemes were somehow both hilarious and binding."
+    ],
+    "theme": "HIMYM"
+  },
+  {
+    "word": "coincidence",
+    "partOfSpeech": "noun",
+    "definition": "A remarkable concurrence of events without apparent causal connection.",
+    "examples": [
+      "Ted refused to believe their meeting was a coincidence — the universe intended it.",
+      "The yellow umbrella kept turning up as a coincidence throughout the story.",
+      "Barney claimed there was no such thing as coincidence — only well-executed plans."
+    ],
+    "theme": "HIMYM"
+  },
+  {
+    "word": "candid",
+    "partOfSpeech": "adjective",
+    "definition": "Truthful and straightforward.",
+    "examples": [
+      "Lily was always the most candid of the group, telling people exactly what she thought.",
+      "Robin gave candid career advice even when it was not what Ted wanted to hear.",
+      "Marshall's candid courtroom style — brutally honest and warmly human — made him effective."
+    ],
+    "theme": "HIMYM"
+  },
+  {
+    "word": "impulsive",
+    "partOfSpeech": "adjective",
+    "definition": "Acting suddenly without careful thought.",
+    "examples": [
+      "Barney's most impulsive move was proposing to Quinn after three months of dating.",
+      "Ted made the impulsive decision to move to Chicago the morning before the wedding.",
+      "Marshall's impulsive acceptance of the judgeship created the biggest conflict he and Lily ever had."
+    ],
+    "theme": "HIMYM"
+  },
+  {
+    "word": "peculiar",
+    "partOfSpeech": "adjective",
+    "definition": "Different from what is normal or expected; strange.",
+    "examples": [
+      "Dwight Schrute's peculiar habits — from beet farming to bear attacks — baffled the entire office.",
+      "Michael had a peculiar management style that somehow produced genuine loyalty.",
+      "The annual Dundies Awards were a peculiar tradition that the staff secretly loved."
+    ],
+    "theme": "OFFICE"
+  },
+  {
+    "word": "oblivious",
+    "partOfSpeech": "adjective",
+    "definition": "Not aware of or concerned about what is happening around one.",
+    "examples": [
+      "Michael was oblivious to the discomfort his jokes caused at every diversity training session.",
+      "Kevin was blissfully oblivious to the fact that his 'secret' candy stash was known to everyone.",
+      "Andy was oblivious to the fact that no one in the office liked his acapella performances."
+    ],
+    "theme": "OFFICE"
+  },
+  {
+    "word": "sycophant",
+    "partOfSpeech": "noun",
+    "definition": "A person who acts obsequiously towards someone important.",
+    "examples": [
+      "Dwight was Michael's ultimate sycophant, praising his every decision no matter how absurd.",
+      "Ryan exploited his role as Michael's favourite by acting the sycophant when needed.",
+      "The office had no shortage of sycophants whenever a VP visited from corporate."
+    ],
+    "theme": "OFFICE"
+  },
+  {
+    "word": "mediocre",
+    "partOfSpeech": "adjective",
+    "definition": "Of only moderate quality; not very good.",
+    "examples": [
+      "Dunder Mifflin's paper was perfectly mediocre — not bad enough to cancel, not good enough to excel.",
+      "Michael's movies were mediocre at best, but he described each one as a masterpiece.",
+      "Jim gave mediocre performance reviews to avoid confrontation with Andy."
+    ],
+    "theme": "OFFICE"
+  },
+  {
+    "word": "perseverance",
+    "partOfSpeech": "noun",
+    "definition": "Continued effort despite difficulty.",
+    "examples": [
+      "Pam's perseverance in pursuing her art dreams — even after failure — defines her arc.",
+      "Jim's perseverance through years of liking Pam before admitting it was either sweet or exhausting.",
+      "Michael's perseverance in the worst situations was actually his most redeeming quality."
+    ],
+    "theme": "OFFICE"
+  },
+  {
+    "word": "condescending",
+    "partOfSpeech": "adjective",
+    "definition": "Having or showing a feeling of superiority; patronising.",
+    "examples": [
+      "Ryan became increasingly condescending after his promotion to corporate.",
+      "Angela's condescending attitude toward everyone outside accounting was legendary.",
+      "Toby's quiet condescension toward Michael's authority was expressed only through a sigh."
+    ],
+    "theme": "OFFICE"
+  },
+  {
+    "word": "pragmatic",
+    "partOfSpeech": "adjective",
+    "definition": "Dealing with things sensibly rather than theoretically.",
+    "examples": [
+      "Oscar was the most pragmatic person in the office — always grounding discussions in facts.",
+      "Dwight's pragmatic approach to HR issues involved a strict ranking system and no feelings.",
+      "Jim's pragmatic decision to take the Athlead job over staying at Dunder Mifflin surprised everyone."
+    ],
+    "theme": "OFFICE"
+  },
+  {
+    "word": "exasperate",
+    "partOfSpeech": "verb",
+    "definition": "To irritate and frustrate someone intensely.",
+    "examples": [
+      "Michael's daily announcements exasperated Jim so much he started counting them.",
+      "Dwight's authority over 'Assistant Regional Manager' duties exasperated everyone equally.",
+      "Kevin's inability to use the printer exasperated Oscar for nine full seasons."
+    ],
+    "theme": "OFFICE"
+  },
+  {
+    "word": "mandatory",
+    "partOfSpeech": "adjective",
+    "definition": "Required by law or mandate; compulsory.",
+    "examples": [
+      "Michael resisted every mandatory HR training as if it were a personal attack.",
+      "The mandatory Fun Run raised money for MS and became one of the office's worst days.",
+      "Toby called the sensitivity seminar mandatory; Michael called it optional and skipped it."
+    ],
+    "theme": "OFFICE"
+  },
+  {
+    "word": "integrity",
+    "partOfSpeech": "noun",
+    "definition": "The quality of being honest and having strong moral principles.",
+    "examples": [
+      "Jim questioned his own integrity when he had to choose between his career and his marriage.",
+      "Dwight's strange code of honour — loyal to Schrute, loyal to Michael — was his version of integrity.",
+      "Pam had to draw on her integrity to tell Jim the truth about her art school failure."
+    ],
+    "theme": "OFFICE"
+  },
+  {
+    "word": "bureaucratic",
+    "partOfSpeech": "adjective",
+    "definition": "Relating to a system of government or management with many complex rules.",
+    "examples": [
+      "Toby embodied everything Michael hated about corporate — rule-following, bureaucratic caution.",
+      "The company's bureaucratic processes made even ordering paper supplies a multi-week ordeal.",
+      "Michael bypassed every bureaucratic procedure, which was both his charm and his liability."
+    ],
+    "theme": "OFFICE"
+  },
+  {
+    "word": "rivalry",
+    "partOfSpeech": "noun",
+    "definition": "Competition for the same objective or superiority in the same field.",
+    "examples": [
+      "The rivalry between Michael and Toby was one of the show's most one-sided relationships.",
+      "Dwight and Jim's rivalry produced some of the most creative pranks in office history.",
+      "The Stamford and Scranton rivalry during the merger created weeks of cultural tension."
+    ],
+    "theme": "OFFICE"
+  },
+  {
+    "word": "loyal",
+    "partOfSpeech": "adjective",
+    "definition": "Giving or showing firm and constant support to a person or institution.",
+    "examples": [
+      "Dwight was fiercely loyal to Michael even when Michael did not deserve it.",
+      "The Scranton branch staff were loyal to each other in ways they never quite admitted.",
+      "Pam was loyal to Jim's dreams, uprooting her own life to support his new venture."
+    ],
+    "theme": "OFFICE"
+  },
+  {
+    "word": "redundant",
+    "partOfSpeech": "adjective",
+    "definition": "No longer needed or useful; superfluous.",
+    "examples": [
+      "After the Scranton merge, many roles in the office became redundant overnight.",
+      "Corporate's decision to eliminate branches made the entire Dunder Mifflin team feel redundant.",
+      "Dwight's 'Assistant to the Regional Manager' title felt redundant when he basically ran the floor."
+    ],
+    "theme": "OFFICE"
+  },
+  {
+    "word": "magnanimous",
+    "partOfSpeech": "adjective",
+    "definition": "Very generous or forgiving, especially towards a rival.",
+    "examples": [
+      "Michael was surprisingly magnanimous when Dwight tried to stage a coup for his job.",
+      "Jim's magnanimous attitude toward Andy's management style kept things from boiling over.",
+      "Despite everything, Michael was magnanimous at his farewell — he hugged even Toby."
+    ],
+    "theme": "OFFICE"
+  },
+  {
+    "word": "meticulous",
+    "partOfSpeech": "adjective",
+    "definition": "Showing great attention to detail; very careful and precise.",
+    "examples": [
+      "Walter White was meticulous in maintaining the chemical purity of his product, insisting on 99.1%.",
+      "Gus Fring ran his legitimate business and criminal operation with meticulous precision.",
+      "Jesse admired how meticulous Walt was, even as that same meticulousness terrified him."
+    ],
+    "theme": "BB"
+  },
+  {
+    "word": "hubris",
+    "partOfSpeech": "noun",
+    "definition": "Excessive pride or self-confidence, often leading to downfall.",
+    "examples": [
+      "Walter White's hubris grew with each success until he genuinely believed he could not lose.",
+      "Gus's hubris was assuming he had anticipated every move Walter would make.",
+      "In Greek tragedy and in Breaking Bad, hubris inevitably leads to catastrophe."
+    ],
+    "theme": "BB"
+  },
+  {
+    "word": "transformation",
+    "partOfSpeech": "noun",
+    "definition": "A thorough or dramatic change in form, appearance, or character.",
+    "examples": [
+      "Walter White's transformation from chemistry teacher to drug lord is one of television's greatest arcs.",
+      "Jesse's transformation from reckless dealer to a man haunted by conscience defines his journey.",
+      "Skyler's transformation from supportive wife to reluctant accomplice happened slowly, then all at once."
+    ],
+    "theme": "BB"
+  },
+  {
+    "word": "calculated",
+    "partOfSpeech": "adjective",
+    "definition": "Done with full awareness of the likely consequences; carefully planned.",
+    "examples": [
+      "Every move Gus Fring made was calculated, including the twelve-year setup for revenge.",
+      "Walt's calculated deceptions became indistinguishable from his genuine personality.",
+      "The calculated risk of cooking in the desert paid off — until it stopped doing so."
+    ],
+    "theme": "BB"
+  },
+  {
+    "word": "ruthless",
+    "partOfSpeech": "adjective",
+    "definition": "Having or showing no pity or compassion.",
+    "examples": [
+      "Walter became ruthless the moment he let Jane die and felt nothing.",
+      "Gus's ruthless elimination of the cartel was decades in the making.",
+      "The show asks: can a ruthless person still be the protagonist of their own story?"
+    ],
+    "theme": "BB"
+  },
+  {
+    "word": "complicit",
+    "partOfSpeech": "adjective",
+    "definition": "Involved in or sharing responsibility for a wrongdoing.",
+    "examples": [
+      "Skyler became complicit in Walt's operation the moment she started laundering money.",
+      "Jesse felt complicit in every death the blue meth indirectly caused.",
+      "Saul Goodman was complicit in more crimes than he ever admitted to."
+    ],
+    "theme": "BB"
+  },
+  {
+    "word": "volatile",
+    "partOfSpeech": "adjective",
+    "definition": "Liable to change rapidly and unpredictably; explosive.",
+    "examples": [
+      "Jesse's volatile temper made him a liability even when his loyalty was absolute.",
+      "The superlab was built with volatile chemicals that demanded respect.",
+      "Walt's ego was volatile — praise calmed him, challenge ignited him."
+    ],
+    "theme": "BB"
+  },
+  {
+    "word": "paranoia",
+    "partOfSpeech": "noun",
+    "definition": "Unfounded suspicion and distrust of others.",
+    "examples": [
+      "Walter's paranoia about exposure drove decisions that made exposure more likely.",
+      "Hank's dogged suspicion about Heisenberg started as paranoia and ended as precision.",
+      "Living a double life converts reasonable caution into all-consuming paranoia."
+    ],
+    "theme": "BB"
+  },
+  {
+    "word": "clandestine",
+    "partOfSpeech": "adjective",
+    "definition": "Kept secret or done secretively, especially for illicit reasons.",
+    "examples": [
+      "Walt's clandestine lab operation required a cover story at home for every absence.",
+      "The clandestine meetings with Gus at Los Pollos Hermanos were hidden in plain sight.",
+      "Jesse's clandestine phone calls to Brock after the ricin incident were risky and necessary."
+    ],
+    "theme": "BB"
+  },
+  {
+    "word": "reckless",
+    "partOfSpeech": "adjective",
+    "definition": "Without thinking or caring about the consequences of an action.",
+    "examples": [
+      "Jesse's reckless lifestyle early in the series made him easy to manipulate.",
+      "Walt accused others of being reckless while taking the most dangerous risks himself.",
+      "Skinny Pete's reckless loyalty to Jesse sometimes saved the day."
+    ],
+    "theme": "BB"
+  },
+  {
+    "word": "inevitability",
+    "partOfSpeech": "noun",
+    "definition": "The quality of being certain to happen; unavoidableness.",
+    "examples": [
+      "By season five, the inevitability of Walter White's downfall hung over every episode.",
+      "There was an inevitability to Jesse's suffering that made the show almost unbearable.",
+      "Hank's discovery of Heisenberg had an inevitability that the writers built across years."
+    ],
+    "theme": "BB"
+  },
+  {
+    "word": "empire",
+    "partOfSpeech": "noun",
+    "definition": "An extensive sphere of activity controlled by a single person or organisation.",
+    "examples": [
+      "Walt built a drug empire not for money but to feel powerful for the first time in his life.",
+      "The Blue Sky empire eventually operated in multiple states without Walt's direct involvement.",
+      "Every empire in Breaking Bad eventually collapses under the weight of its own success."
+    ],
+    "theme": "BB"
+  },
+  {
+    "word": "cathartic",
+    "partOfSpeech": "adjective",
+    "definition": "Providing psychological relief through strong emotion.",
+    "examples": [
+      "Walt's final confession — 'I did it for me' — was cathartic for viewers waiting five seasons.",
+      "Jesse's escape in the finale was cathartic in a way that few TV endings achieve.",
+      "The destruction of the superlab was cathartic and devastating at the same time."
+    ],
+    "theme": "BB"
+  },
+  {
+    "word": "sarcastic",
+    "partOfSpeech": "adjective",
+    "definition": "Marked by the use of irony to mock or convey contempt.",
+    "examples": [
+      "Chandler's sarcastic remarks were his first line of defence in every awkward situation.",
+      "Monica shot a sarcastic look at Ross whenever he tried to correct her cooking.",
+      "Joey never quite understood Chandler's sarcastic humour, which somehow made it funnier."
+    ],
+    "theme": "FRIENDS"
+  },
+  {
+    "word": "neurotic",
+    "partOfSpeech": "adjective",
+    "definition": "Abnormally sensitive, obsessive, or anxious.",
+    "examples": [
+      "Monica was neurotic about cleanliness and orderliness in ways that baffled her roommates.",
+      "Ross's neurotic need to be right about everything made him simultaneously endearing and exhausting.",
+      "Rachel's neurotic planning for her wedding revealed anxieties she had carried since childhood."
+    ],
+    "theme": "FRIENDS"
+  },
+  {
+    "word": "loyal",
+    "partOfSpeech": "adjective",
+    "definition": "Giving or showing firm and constant support to a person or group.",
+    "examples": [
+      "Despite their differences, all six friends were fiercely loyal to each other.",
+      "Phoebe was loyal to her beliefs — vegan, spiritual, and unapologetically weird.",
+      "Joey's loyal nature meant he would lie to Chandler's boss before letting his friend get fired."
+    ],
+    "theme": "FRIENDS"
+  },
+  {
+    "word": "oblivious",
+    "partOfSpeech": "adjective",
+    "definition": "Not aware of or concerned about what is happening around one.",
+    "examples": [
+      "Joey was often oblivious to the romantic subplots happening right in front of him.",
+      "Ross was oblivious to how his 'I'm fine' phase affected everyone around him.",
+      "Phoebe was oblivious to sarcasm in a way that made her completely immune to it."
+    ],
+    "theme": "FRIENDS"
+  },
+  {
+    "word": "impulsive",
+    "partOfSpeech": "adjective",
+    "definition": "Acting or done without forethought.",
+    "examples": [
+      "Ross's impulsive declaration of Rachel's name at the altar derailed his wedding to Emily.",
+      "Chandler's impulsive 'Could this BE any more...' catchphrase became impossible to suppress.",
+      "Rachel's impulsive decision to leave Barry at the altar set the entire series in motion."
+    ],
+    "theme": "FRIENDS"
+  },
+  {
+    "word": "endearing",
+    "partOfSpeech": "adjective",
+    "definition": "Inspiring affection; charming.",
+    "examples": [
+      "Joey's complete sincerity about food and acting made him the most endearing of the six.",
+      "Phoebe's endearing belief in every conspiracy theory made her impossible to argue with.",
+      "Chandler's self-deprecating humour was so endearing that even his own insecurity became loveable."
+    ],
+    "theme": "FRIENDS"
+  },
+  {
+    "word": "competitive",
+    "partOfSpeech": "adjective",
+    "definition": "Having or displaying a strong desire to be more successful than others.",
+    "examples": [
+      "Monica was aggressively competitive — even a casual game of football became a matter of life and death.",
+      "The trivia game for the apartments revealed just how competitive all six friends secretly were.",
+      "Ross was competitive about academic achievements in a way that embarrassed everyone, including himself."
+    ],
+    "theme": "FRIENDS"
+  },
+  {
+    "word": "nostalgia",
+    "partOfSpeech": "noun",
+    "definition": "A sentimental longing for the past.",
+    "examples": [
+      "Rewatching Friends is pure nostalgia — Central Perk, the orange sofa, the purple apartment.",
+      "Ross's nostalgia for Carol blinded him to Rachel's feelings for far too long.",
+      "The finale's return to the empty apartment triggered nostalgia in audiences around the world."
+    ],
+    "theme": "FRIENDS"
+  },
+  {
+    "word": "resilient",
+    "partOfSpeech": "adjective",
+    "definition": "Able to recover quickly from difficulties.",
+    "examples": [
+      "Rachel was resilient — she went from broke runaway bride to senior buyer at Bloomingdale's.",
+      "Monica's resilience after her weight loss years was channelled into excellence in everything.",
+      "Ross was resilient in the face of multiple divorces, eventually finding lasting happiness."
+    ],
+    "theme": "FRIENDS"
+  },
+  {
+    "word": "frugal",
+    "partOfSpeech": "adjective",
+    "definition": "Sparing with money; economical.",
+    "examples": [
+      "Joey's frugal years — surviving on extra roles and handouts — shaped his appreciation for food.",
+      "The gang's budget dinners at the apartment during broke periods were surprisingly fun.",
+      "Chandler was not naturally frugal, but Monica's spreadsheets kept their spending in line."
+    ],
+    "theme": "FRIENDS"
+  },
+  {
+    "word": "passionate",
+    "partOfSpeech": "adjective",
+    "definition": "Showing or caused by strong feelings; enthusiastic.",
+    "examples": [
+      "Monica was passionate about cooking in a way that crossed the line into obsession.",
+      "Ross was passionate about dinosaurs to a degree no one else in the group could match.",
+      "Rachel's passion for fashion got her to Paris, which was both her triumph and her heartbreak."
+    ],
+    "theme": "FRIENDS"
+  },
+  {
+    "word": "quirky",
+    "partOfSpeech": "adjective",
+    "definition": "Having unusual characteristics in an endearing way.",
+    "examples": [
+      "Phoebe's quirky songs — Smelly Cat chief among them — were works of unintentional genius.",
+      "The group had a quirky ritual for every holiday that made no sense to outsiders.",
+      "Joey's quirky method of preparing for roles — living as the character — baffled every director."
+    ],
+    "theme": "FRIENDS"
+  },
+  {
+    "word": "inadvertent",
+    "partOfSpeech": "adjective",
+    "definition": "Not resulting from or achieved through deliberate planning; accidental.",
+    "examples": [
+      "Ross's inadvertent 'We were on a break!' became the most repeated phrase in the entire show.",
+      "Chandler's inadvertent proposal at the wrong moment sent Monica into a spiral.",
+      "Joey's inadvertent success in getting the group's deepest secrets was a superpower."
+    ],
+    "theme": "FRIENDS"
+  },
+  {
+    "word": "commitment",
+    "partOfSpeech": "noun",
+    "definition": "Dedication to a cause or relationship.",
+    "examples": [
+      "Monica and Chandler's commitment to each other was the emotional anchor of the later seasons.",
+      "Ross had a comically poor track record with commitment despite desperately wanting it.",
+      "Phoebe's commitment to her unusual worldview never wavered, no matter who challenged it."
+    ],
+    "theme": "FRIENDS"
+  },
+  {
+    "word": "revelation",
+    "partOfSpeech": "noun",
+    "definition": "A surprising and previously unknown fact that is made known.",
+    "examples": [
+      "The revelation that Monica and Chandler were together was one of the show's greatest moments.",
+      "Ross's revelation that he had feelings for Rachel came far later than the audience expected.",
+      "Phoebe's revelation that her birth mother was still alive completely reshaped her story."
+    ],
+    "theme": "FRIENDS"
+  },
+  {
+    "word": "empathy",
+    "partOfSpeech": "noun",
+    "definition": "The ability to understand and share the feelings of another.",
+    "examples": [
+      "Phoebe had the deepest empathy of the group — she felt everything, including the feelings of furniture.",
+      "Joey's empathy as an actor made his performances surprisingly moving.",
+      "Monica showed empathy for Rachel when she arrived at her door, knowing exactly what it felt like to feel lost."
+    ],
+    "theme": "FRIENDS"
+  },
+  {
+    "word": "whimsical",
+    "partOfSpeech": "adjective",
+    "definition": "Playfully quaint or fanciful.",
+    "examples": [
+      "Phoebe's whimsical view of the world — past lives, psychics, cat spirits — was sincere, not ironic.",
+      "The whimsical subplot of Ross's failed divorce streak somehow always looped back to tenderness.",
+      "Central Perk had a whimsical quality that made it feel like a warm fantasy of friendship."
+    ],
+    "theme": "FRIENDS"
+  },
+  {
+    "word": "verbose",
+    "partOfSpeech": "adjective",
+    "definition": "Using more words than necessary.",
+    "examples": [
+      "Ross's verbose explanations of dinosaur behaviour cleared a room faster than a fire alarm.",
+      "Chandler's verbose apologies — full of subclauses and qualifications — somehow always landed.",
+      "The gang was verbose about everything except their actual feelings for each other."
+    ],
+    "theme": "FRIENDS"
+  },
+  {
+    "word": "tenacious",
+    "partOfSpeech": "adjective",
+    "definition": "Persistent; not readily giving up.",
+    "examples": [
+      "Rachel was tenacious in rebuilding her life after leaving Barry with nothing but a credit card.",
+      "Ross was tenacious in correcting anyone who called him 'just a teacher'.",
+      "Monica was tenacious in the kitchen — a failed dish was never accepted as final."
+    ],
+    "theme": "FRIENDS"
+  },
+  {
+    "word": "conspire",
+    "partOfSpeech": "verb",
+    "definition": "To make secret plans jointly to commit an unlawful or harmful act.",
+    "examples": [
+      "Littlefinger and Lysa conspired to kill Jon Arryn, setting the entire series in motion.",
+      "The lords of the North conspired to crown Robb King in the North after Ned's execution.",
+      "Even allies conspire in Westeros — survival demands it."
+    ],
+    "theme": "GOT"
+  },
+  {
+    "word": "pyrrhic",
+    "partOfSpeech": "adjective",
+    "definition": "Of a victory: won at too great a cost to be worthwhile.",
+    "examples": [
+      "Stannis's victory over the Wildlings at the Wall proved pyrrhic — he lost everything shortly after.",
+      "Daenerys's conquest of King's Landing was a pyrrhic triumph that cost her the support of her allies.",
+      "The Battle of the Bastards was a pyrrhic win without the Knights of the Vale's last-minute arrival."
+    ],
+    "theme": "GOT"
+  },
+  {
+    "word": "shroud",
+    "partOfSpeech": "noun",
+    "definition": "A thing that envelops or obscures something.",
+    "examples": [
+      "The Long Night cast a shroud of darkness and terror across the entire continent.",
+      "Melisandre kept her true age hidden beneath a magical shroud for decades.",
+      "A shroud of secrecy surrounded the true identity of Jon Snow's parents for years."
+    ],
+    "theme": "GOT"
+  },
+  {
+    "word": "absolution",
+    "partOfSpeech": "noun",
+    "definition": "Formal release from guilt, obligation, or punishment.",
+    "examples": [
+      "Jaime sought absolution for killing the Mad King, but the world only saw the treachery.",
+      "The Night's Watch offered men absolution from their past in exchange for lifelong service.",
+      "Theon's absolution came at great cost — it required his own sacrifice to earn."
+    ],
+    "theme": "GOT"
+  },
+  {
+    "word": "redemption",
+    "partOfSpeech": "noun",
+    "definition": "The action of being saved from sin, error, or evil.",
+    "examples": [
+      "Jaime Lannister's arc is one of the most compelling redemption stories in the series.",
+      "Theon's redemption at Winterfell was hard-earned and emotionally devastating.",
+      "The show asks whether redemption is possible for those who have done the unforgivable."
+    ],
+    "theme": "GOT"
+  },
+  {
+    "word": "mandate",
+    "partOfSpeech": "noun",
+    "definition": "An official order or commission to do something.",
+    "examples": [
+      "The Night's Watch had a singular mandate: defend the realm from what lies beyond the Wall.",
+      "The Small Council operated on the mandate of the sitting king, for better or worse.",
+      "Daenerys believed her mandate to rule was written in blood and confirmed by dragons."
+    ],
+    "theme": "GOT"
+  },
+  {
+    "word": "resilient",
+    "partOfSpeech": "adjective",
+    "definition": "Able to recover quickly from difficulties.",
+    "examples": [
+      "Sansa was the most resilient character — broken and rebuilt more times than any other.",
+      "The Free Folk were resilient, surviving beyond the Wall for generations without castles or lords.",
+      "Arya's resilience across three continents and countless hardships was extraordinary."
+    ],
+    "theme": "GOT"
+  },
+  {
+    "word": "whimsical",
+    "partOfSpeech": "adjective",
+    "definition": "Playfully quaint or fanciful, especially in an appealing way.",
+    "examples": [
+      "Marshall's whimsical belief that he was a knight defending the environment charmed even sceptics.",
+      "Ted's whimsical stories about destiny made Future Ted impossible to take entirely seriously.",
+      "Lily's whimsical art projects — including the intervention banner — became group traditions."
+    ],
+    "theme": "HIMYM"
+  },
+  {
+    "word": "elaborate",
+    "partOfSpeech": "adjective",
+    "definition": "Involving many carefully arranged parts or details; detailed.",
+    "examples": [
+      "Barney's elaborate plays and schemes were documented in the Playbook with impressive precision.",
+      "Ted's elaborate apartment renovation was his way of building something meaningful with his hands.",
+      "The gang's elaborate Thanksgiving traditions evolved year by year into something uniquely theirs."
+    ],
+    "theme": "HIMYM"
+  },
+  {
+    "word": "confident",
+    "partOfSpeech": "adjective",
+    "definition": "Feeling or showing certainty about something.",
+    "examples": [
+      "Barney was outwardly confident at all times, using bravado to hide genuine loneliness.",
+      "Robin became more confident in her career as she moved from local news to global anchor.",
+      "Ted was confident about meeting the one — less confident about who she actually was."
+    ],
+    "theme": "HIMYM"
+  },
+  {
+    "word": "vulnerable",
+    "partOfSpeech": "adjective",
+    "definition": "Exposed to the possibility of being attacked or harmed, emotionally or physically.",
+    "examples": [
+      "Barney's most vulnerable moments — with his father, with Robin — revealed who he really was.",
+      "Marshall's grief over his father's death made him vulnerable in ways the group had never seen.",
+      "Ted allowed himself to be vulnerable one last time when he finally told the kids the whole story."
+    ],
+    "theme": "HIMYM"
+  },
+  {
+    "word": "melancholy",
+    "partOfSpeech": "noun",
+    "definition": "A feeling of pensive sadness, typically with no obvious cause.",
+    "examples": [
+      "The Mother's brief appearance carried a melancholy that viewers only understood in the finale.",
+      "Ted's melancholy at Farhampton station the night of the wedding was visible even to strangers.",
+      "Robin's melancholy about her inability to have children was one of the show's quietest heartbreaks."
+    ],
+    "theme": "HIMYM"
+  },
+  {
+    "word": "ambivalent",
+    "partOfSpeech": "adjective",
+    "definition": "Having mixed feelings or contradictory ideas.",
+    "examples": [
+      "Robin was ambivalent about love — she wanted it desperately but feared what it cost her freedom.",
+      "Ted was ambivalent about leaving New York but knew staying meant never moving forward.",
+      "Barney was ambivalent about fatherhood until Ellie made it entirely, immediately real."
+    ],
+    "theme": "HIMYM"
+  },
+  {
+    "word": "catalyst",
+    "partOfSpeech": "noun",
+    "definition": "A person or thing that precipitates an event or change.",
+    "examples": [
+      "Robin's appearance at the party was the catalyst that launched Ted's nine-year story.",
+      "The yellow umbrella served as a catalyst — each time it appeared, something shifted.",
+      "Marshall's job offer from the judiciary was the catalyst for their biggest relationship crisis."
+    ],
+    "theme": "HIMYM"
+  },
+  {
+    "word": "eccentric",
+    "partOfSpeech": "adjective",
+    "definition": "Unconventional and slightly strange.",
+    "examples": [
+      "Dwight's eccentric habits — growing beets, wearing a trench coat to meetings — became endearing over time.",
+      "Michael's eccentric management philosophy was inexplicable on paper but somehow effective in practice.",
+      "Creed Bratton was so eccentric that his backstory remained deliberately unexplained."
+    ],
+    "theme": "OFFICE"
+  },
+  {
+    "word": "resilience",
+    "partOfSpeech": "noun",
+    "definition": "The capacity to recover quickly from difficulties.",
+    "examples": [
+      "The Scranton branch showed resilience through mergers, downsizing threats, and Michael's departures.",
+      "Pam's resilience in pursuing her art dreams — even after Pratt — was the show's quiet triumph.",
+      "Michael's resilience in the face of corporate rejection was both tragic and inspiring."
+    ],
+    "theme": "OFFICE"
+  },
+  {
+    "word": "authority",
+    "partOfSpeech": "noun",
+    "definition": "The power or right to give orders, make decisions, and enforce obedience.",
+    "examples": [
+      "Michael wielded his authority with love but no consistency, which made it both powerful and useless.",
+      "Dwight craved authority so deeply that any taste of it — hall monitor, safety officer — transformed him.",
+      "Corporate's authority over the Scranton branch was constantly undermined by Michael's charisma."
+    ],
+    "theme": "OFFICE"
+  },
+  {
+    "word": "camaraderie",
+    "partOfSpeech": "noun",
+    "definition": "Mutual trust and friendship among people who spend time together.",
+    "examples": [
+      "Despite everything, the Dunder Mifflin staff had a genuine camaraderie that outlasted Michael.",
+      "The Finer Things Club was Pam's attempt to build a different kind of camaraderie within the office.",
+      "Jim and Dwight's rivalry disguised a deep camaraderie that only emerged in moments of crisis."
+    ],
+    "theme": "OFFICE"
+  },
+  {
+    "word": "delusional",
+    "partOfSpeech": "adjective",
+    "definition": "Characterised by or holding idiosyncratic beliefs that are false.",
+    "examples": [
+      "Michael was delusional about his popularity with the staff, but that delusion protected them all.",
+      "Dwight was delusional about the romantic signals Angela was sending during their secret relationship.",
+      "Andy's delusional belief in his own talent extended to his Cornell connections and acapella career."
+    ],
+    "theme": "OFFICE"
+  },
+  {
+    "word": "ambitious",
+    "partOfSpeech": "adjective",
+    "definition": "Having a strong desire for success or achievement.",
+    "examples": [
+      "Ryan's ambitious drive brought him from temp to corporate — and straight back down.",
+      "Dwight was ambitious in the most unusual ways: beet empire, paper company, regional manager.",
+      "Jim's quiet ambition finally surfaced when he co-founded Athlead, surprising even himself."
+    ],
+    "theme": "OFFICE"
+  },
+  {
+    "word": "charisma",
+    "partOfSpeech": "noun",
+    "definition": "Compelling attractiveness or charm that inspires devotion in others.",
+    "examples": [
+      "Michael's charisma was irrational but real — people who left always missed him.",
+      "Robert California's charisma was unsettling, operating on a frequency no one could quite tune into.",
+      "Jim's effortless charisma let him coast through situations that would sink a less likeable person."
+    ],
+    "theme": "OFFICE"
+  },
+  {
+    "word": "catharsis",
+    "partOfSpeech": "noun",
+    "definition": "The process of releasing strong emotions through art, drama, or therapy.",
+    "examples": [
+      "Michael's farewell at the airport provided catharsis for both the characters and the audience.",
+      "Pam's painting of the office building was a quiet catharsis after years of deferred dreams.",
+      "Watching the show provides catharsis — the workplace absurdity mirrors our own in uncanny ways."
+    ],
+    "theme": "OFFICE"
+  },
+  {
+    "word": "deteriorate",
+    "partOfSpeech": "verb",
+    "definition": "To become progressively worse.",
+    "examples": [
+      "Walt's moral compass deteriorated so gradually that viewers barely noticed until it was gone.",
+      "Jesse's mental health deteriorated under the pressure of living with the consequences of their work.",
+      "The partnership between Walt and Jesse began to deteriorate the moment Walt put the operation first."
+    ],
+    "theme": "BB"
+  },
+  {
+    "word": "leverage",
+    "partOfSpeech": "noun",
+    "definition": "The power to influence a person or situation to achieve a particular outcome.",
+    "examples": [
+      "Gus used Jesse as leverage over Walt to keep the operation running after their falling out.",
+      "Walt leveraged his cancer diagnosis to enter the drug trade, framing it as having nothing to lose.",
+      "Mike held leverage over half of the city's police force through Gus's network of payments."
+    ],
+    "theme": "BB"
+  },
+  {
+    "word": "rationalise",
+    "partOfSpeech": "verb",
+    "definition": "To attempt to explain or justify with logical reasons, even if not accurate.",
+    "examples": [
+      "Walt could rationalise every decision — from letting Jane die to poisoning Brock.",
+      "Jesse rationalised his involvement by telling himself the product went to people who chose it.",
+      "Skyler rationalised her silence for months before she could no longer pretend ignorance."
+    ],
+    "theme": "BB"
+  },
+  {
+    "word": "methodical",
+    "partOfSpeech": "adjective",
+    "definition": "Done according to a systematic or established procedure.",
+    "examples": [
+      "Walt's methodical approach to chemistry translated into a methodical approach to crime.",
+      "Gus was methodical in his revenge — twelve years of patient positioning before the strike.",
+      "Hank was methodical in piecing together the Heisenberg case, connecting details others dismissed."
+    ],
+    "theme": "BB"
+  },
+  {
+    "word": "surreal",
+    "partOfSpeech": "adjective",
+    "definition": "Having a strange dreamlike quality; bizarre.",
+    "examples": [
+      "The show's surreal moments — the pink bear, the fly — operate on a symbolic level above plot.",
+      "Jesse found the mundanity of life after the lab surreal after years of chaos.",
+      "Walt sitting in the parking lot eating a burger after committing a terrible act felt surreal and chilling."
+    ],
+    "theme": "BB"
+  },
+  {
+    "word": "collateral",
+    "partOfSpeech": "adjective",
+    "definition": "Occurring in addition to or alongside something, often as an unintended consequence.",
+    "examples": [
+      "Every innocent person harmed in the drug war was collateral damage Walt refused to fully reckon with.",
+      "The Wayfarer 515 collision was collateral tragedy caused entirely by Walt's decision.",
+      "Jesse was devastated by the collateral cost — to Andrea, to Brock, to Jane — of their choices."
+    ],
+    "theme": "BB"
+  },
+  {
+    "word": "facade",
+    "partOfSpeech": "noun",
+    "definition": "An outward appearance that is maintained to conceal a less pleasant reality.",
+    "examples": [
+      "Walt maintained a facade of normality at home long past the point where it was believable.",
+      "Gus Fring's community-minded restaurateur facade was so convincing that Hank dismissed him entirely.",
+      "The entire series is about what happens when a person's facade finally cracks completely."
+    ],
+    "theme": "BB"
+  },
+  {
+    "word": "identity",
+    "partOfSpeech": "noun",
+    "definition": "The fact of being who or what a person is.",
+    "examples": [
+      "Walter White's identity crisis — mild-mannered teacher — was the engine of the entire series.",
+      "Saul Goodman was a constructed identity, worn so long that Jimmy McGill nearly disappeared.",
+      "Jesse struggled to define his identity outside of Walt's orbit for most of the show."
+    ],
+    "theme": "BB"
+  },
+  {
+    "word": "irreversible",
+    "partOfSpeech": "adjective",
+    "definition": "Not able to be undone or altered.",
+    "examples": [
+      "Letting Jane die was the irreversible moment — Walt could never fully come back from it.",
+      "Jesse's trauma was irreversible; no ending could truly restore what he lost.",
+      "The show's moral lesson is that certain decisions are irreversible, no matter the justification."
+    ],
+    "theme": "BB"
+  },
+  {
+    "word": "banter",
+    "partOfSpeech": "noun",
+    "definition": "The playful and friendly exchange of teasing remarks.",
+    "examples": [
+      "The banter between Chandler and Joey defined their friendship as something between brothers.",
+      "Ross and Rachel's banter in the early seasons crackled with unspoken tension.",
+      "Monica and Chandler's banter grew more tender over time, never losing its edge."
+    ],
+    "theme": "FRIENDS"
+  },
+  {
+    "word": "spontaneity",
+    "partOfSpeech": "noun",
+    "definition": "The condition of being spontaneous; natural and unprompted.",
+    "examples": [
+      "Joey's spontaneity — saying exactly what he thought the moment he thought it — was both charming and disarming.",
+      "The best moments in the show came from spontaneity: a random game, a last-minute trip.",
+      "Phoebe's spontaneity kept the group from taking themselves too seriously."
+    ],
+    "theme": "FRIENDS"
+  },
+  {
+    "word": "solidarity",
+    "partOfSpeech": "noun",
+    "definition": "Unity or agreement of feeling or action, especially among individuals with a common interest.",
+    "examples": [
+      "The group's solidarity was clearest when one of them was in trouble — they always showed up.",
+      "Monica and Rachel's friendship was built on decades of quiet solidarity.",
+      "The group showed solidarity when Phoebe faced her past — no questions, just presence."
+    ],
+    "theme": "FRIENDS"
+  },
+  {
+    "word": "deflect",
+    "partOfSpeech": "verb",
+    "definition": "To cause something to change direction; to turn away by humour or distraction.",
+    "examples": [
+      "Chandler used humour to deflect from real emotions — a habit that drove relationships to breaking point.",
+      "Ross would deflect from personal failures by pivoting to an academic achievement.",
+      "Joey would deflect any serious conversation toward food, which was somehow always effective."
+    ],
+    "theme": "FRIENDS"
+  },
+  {
+    "word": "sentimental",
+    "partOfSpeech": "adjective",
+    "definition": "Of or prompted by feelings of tenderness or nostalgia.",
+    "examples": [
+      "The finale was deeply sentimental — every callback to earlier seasons landed with full emotional weight.",
+      "Monica was sentimental about keeping the group together, organising holidays and get-togethers.",
+      "Ross kept every memento from every relationship — sentimental to a fault."
+    ],
+    "theme": "FRIENDS"
+  },
+  {
+    "word": "dynamic",
+    "partOfSpeech": "noun",
+    "definition": "A force that stimulates change or progress within a system.",
+    "examples": [
+      "The dynamic between the six friends shifted over a decade but the core never changed.",
+      "The Ross-Rachel dynamic was the series' engine — will they or won't they for ten years.",
+      "Adding a seventh person to the group always disrupted the dynamic in ways no one expected."
+    ],
+    "theme": "FRIENDS"
+  },
+  {
+    "word": "perceptive",
+    "partOfSpeech": "adjective",
+    "definition": "Having or showing sensitive insight.",
+    "examples": [
+      "Phoebe was more perceptive than she appeared — she often noticed what others missed entirely.",
+      "Monica was perceptive about food and people, but blind to her own control tendencies.",
+      "Rachel became increasingly perceptive about relationships the more she invested in her career."
+    ],
+    "theme": "FRIENDS"
+  },
+  {
+    "word": "candour",
+    "partOfSpeech": "noun",
+    "definition": "The quality of being open and honest in expression; frankness.",
+    "examples": [
+      "She appreciated his candour even when the feedback was hard to hear.",
+      "His candour in the interview was refreshing — he admitted the project had failed.",
+      "Candour builds trust faster than any amount of professional polish."
+    ],
+    "theme": "GENERAL"
+  },
+  {
+    "word": "earnest",
+    "partOfSpeech": "adjective",
+    "definition": "Serious in intention, purpose, or effort; showing depth of feeling.",
+    "examples": [
+      "Ted Mosby was painfully earnest in his search for love, never quite developing a protective irony.",
+      "Barney's most earnest moments — stripped of the swagger — revealed someone desperate to be loved.",
+      "Future Ted's earnest narration made even trivial stories feel meaningful."
+    ],
+    "theme": "HIMYM"
+  },
+  {
+    "word": "introspection",
+    "partOfSpeech": "noun",
+    "definition": "The examination of one's own thoughts and feelings.",
+    "examples": [
+      "Marshall's long drives back to Minnesota were his version of introspection.",
+      "Robin avoided introspection for years, filling her life with work to dodge hard questions.",
+      "The show's final episodes forced all six characters into unexpected introspection."
+    ],
+    "theme": "HIMYM"
+  },
+  {
+    "word": "audacity",
+    "partOfSpeech": "noun",
+    "definition": "A willingness to take bold risks; rude or disrespectful behaviour.",
+    "examples": [
+      "Barney had the audacity to walk into every situation as if he owned it — and it usually worked.",
+      "It took audacity to propose at someone else's wedding, but Ted had never played it safe.",
+      "The gang had the audacity to expect their favourite bar booth to always be available."
+    ],
+    "theme": "HIMYM"
+  },
+  {
+    "word": "micromanage",
+    "partOfSpeech": "verb",
+    "definition": "To control every part of an enterprise with excessive attention to small details.",
+    "examples": [
+      "Angela would micromanage every office party until the fun was entirely extracted.",
+      "Michael would micromanage trivial tasks while ignoring the actual work of running a branch.",
+      "Dwight micromanaged the parking lot, bathroom breaks, and thermostat settings with equal intensity."
+    ],
+    "theme": "OFFICE"
+  },
+  {
+    "word": "inadvertent",
+    "partOfSpeech": "adjective",
+    "definition": "Not resulting from deliberate planning; accidental.",
+    "examples": [
+      "Michael's inadvertent moments of wisdom were somehow the most affecting.",
+      "Jim's inadvertent invention of the Pretzel Day tradition became a branch-wide institution.",
+      "Dwight's inadvertent kindness toward Pam during her art crisis revealed more than he intended."
+    ],
+    "theme": "OFFICE"
+  },
+  {
+    "word": "culpable",
+    "partOfSpeech": "adjective",
+    "definition": "Deserving blame for a fault or wrong; responsible.",
+    "examples": [
+      "Walt was culpable for Jane's death even if he technically did nothing — he chose not to act.",
+      "Jesse felt culpable for every downstream death their product caused.",
+      "Skyler's culpability grew slowly, one cover story at a time."
+    ],
+    "theme": "BB"
+  },
+  {
+    "word": "disintegrate",
+    "partOfSpeech": "verb",
+    "definition": "To break up into small parts or pieces; to fall apart.",
+    "examples": [
+      "The White family began to disintegrate the moment Skyler learned the truth.",
+      "Walt and Jesse's partnership started to disintegrate the moment their goals diverged.",
+      "Mike watched Gus's operation disintegrate and knew it was over before anyone else did."
+    ],
+    "theme": "BB"
+  },
+  {
+    "word": "entangled",
+    "partOfSpeech": "adjective",
+    "definition": "Twisted together or caught in something; involved in complicated circumstances.",
+    "examples": [
+      "Jesse became hopelessly entangled in Walt's world long after he wanted to walk away.",
+      "Skyler was entangled in Walt's lies before she understood what she had agreed to.",
+      "Saul Goodman spent his career helping entangled clients get less entangled — for a fee."
+    ],
+    "theme": "BB"
+  },
+  {
+    "word": "infallible",
+    "partOfSpeech": "adjective",
+    "definition": "Incapable of making mistakes or being wrong.",
+    "examples": [
+      "Monica believed her recipe judgement was infallible and took corrections as personal offence.",
+      "Ross considered himself infallible on matters of science, history, and dinosaurs.",
+      "Joey was infallible in his generosity — he would always share, especially his food."
+    ],
+    "theme": "FRIENDS"
+  },
+  {
+    "word": "abrupt",
+    "partOfSpeech": "adjective",
+    "definition": "Sudden and unexpected; brief to the point of rudeness.",
+    "examples": [
+      "Chandler's abrupt engagement was planned but felt spontaneous to everyone except Monica.",
+      "Rachel's abrupt departure for Paris left Ross standing at the airport with nothing to say.",
+      "Joey's abrupt transitions from serious moment to food thought were his most reliable trait."
+    ],
+    "theme": "FRIENDS"
+  },
+  {
+    "word": "cathartic",
+    "partOfSpeech": "adjective",
+    "definition": "Providing psychological relief through strong emotion.",
+    "examples": [
+      "The moment Ross and Rachel finally got it right was cathartic after ten years of near misses.",
+      "Chandler and Monica's wedding was cathartic — it was the relationship you always believed in.",
+      "Phoebe's reunion with her birth mother was cathartic in a season full of hidden emotion."
+    ],
+    "theme": "FRIENDS"
+  },
+  {
+    "word": "nostalgic",
+    "partOfSpeech": "adjective",
+    "definition": "Feeling a sentimental longing for the past.",
+    "examples": [
+      "Watching the show today is deeply nostalgic — a world where people met without apps.",
+      "The reunion special leaned heavily on nostalgic callbacks that landed for longtime fans.",
+      "Chandler grew nostalgic for the pre-children apartment, then saw Erica smile and forgot everything."
+    ],
+    "theme": "FRIENDS"
+  },
+  {
+    "word": "unravelling",
+    "partOfSpeech": "noun",
+    "definition": "A process of undoing or falling apart, especially of something complex.",
+    "examples": [
+      "The unravelling of Gus Fring's empire began with one small mistake: underestimating Walter.",
+      "The unravelling of the White family happened in slow motion, visible to viewers long before characters.",
+      "Jesse's psychological unravelling after Andrea's death was the series' most painful sequence."
+    ],
+    "theme": "BB"
+  },
+  {
+    "word": "fortitude",
+    "partOfSpeech": "noun",
+    "definition": "Courage in pain or adversity.",
+    "examples": [
+      "Sansa showed fortitude that outgrew everything the story asked of her — and it asked a great deal.",
+      "The Free Folk's fortitude in surviving beyond the Wall without walls or warmth was remarkable.",
+      "Jon Snow's fortitude in returning to leadership after his own murder defined his character."
+    ],
+    "theme": "GOT"
+  },
+  {
+    "word": "prolific",
+    "partOfSpeech": "adjective",
+    "definition": "Present in large numbers or quantities; producing much output.",
+    "examples": [
+      "The Citadel's prolific production of ravens kept Westeros's communication networks running.",
+      "Prolific in schemes and rarely in victories, Littlefinger's legacy was chaos itself.",
+      "The prolific bloodshed across the Seven Kingdoms made peace feel permanently out of reach."
+    ],
+    "theme": "GOT"
+  },
+  {
+    "word": "transient",
+    "partOfSpeech": "adjective",
+    "definition": "Lasting only for a short time; impermanent.",
+    "examples": [
+      "Power in Westeros is transient — every king eventually falls, every dynasty ends.",
+      "The alliances forged before the Long Night were transient, dissolving when the threat passed.",
+      "Joy in the show is transient; it is earned in brief moments between catastrophes."
+    ],
+    "theme": "GOT"
+  }
+]
